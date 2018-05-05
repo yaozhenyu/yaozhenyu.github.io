@@ -1,34 +1,34 @@
 [
 {
-	"uri": "/categories/",
+	"uri": "note/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/jsp/",
+	"uri": "note/jsp/",
 	"title": "JSP",
 	"tags": [],
 	"description": "",
 	"content": "JSP\n"
 },
 {
-	"uri": "/jsp/jstl/",
+	"uri": "note/jsp/jstl/",
 	"title": "JSTL",
 	"tags": [],
 	"description": "",
 	"content": "asda\n"
 },
 {
-	"uri": "/tags/",
+	"uri": "note/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/",
+	"uri": "note/",
 	"title": "我的笔记",
 	"tags": [],
 	"description": "",

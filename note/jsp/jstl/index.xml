@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JSTL on 我的笔记</title>
-    <link>/jsp/jstl/</link>
+    <link>note/jsp/jstl/</link>
     <description>Recent content in JSTL on 我的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/jsp/jstl/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="note/jsp/jstl/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
