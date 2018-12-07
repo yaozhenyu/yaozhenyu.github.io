@@ -1,0 +1,1056 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>import static和import的区别 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="xiu-shi-fu.html" />
+    
+    
+    <link rel="prev" href="lei-yu-lei-zhi-jian-de-guan-xi.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../spring.html">
+            
+                <a href="../spring.html">
+            
+                    
+                    Spring
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../spring/jpa.html">
+            
+                <a href="../spring/jpa.html">
+            
+                    
+                    JPA
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../spring/springsecurity.html">
+            
+                <a href="../spring/springsecurity.html">
+            
+                    
+                    SpringSecurity
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../java.html">
+            
+                <a href="../java.html">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="lei-yu-lei-zhi-jian-de-guan-xi.html">
+            
+                <a href="lei-yu-lei-zhi-jian-de-guan-xi.html">
+            
+                    
+                    类与类之间的关系
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.2" data-path="import-statiche-import-de-qu-bie.html">
+            
+                <a href="import-statiche-import-de-qu-bie.html">
+            
+                    
+                    import static和import的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="xiu-shi-fu.html">
+            
+                <a href="xiu-shi-fu.html">
+            
+                    
+                    修饰符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="mei-ju-lei.html">
+            
+                <a href="mei-ju-lei.html">
+            
+                    
+                    枚举类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="zhu-jie.html">
+            
+                <a href="zhu-jie.html">
+            
+                    
+                    注解
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../she-ji-mo-shi-yuan-ze.html">
+            
+                <a href="../she-ji-mo-shi-yuan-ze.html">
+            
+                    
+                    设计模式六大原则
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../she-ji-mo-shi-yuan-ze/dan-yi-zhi-ze-yuan-ze.html">
+            
+                <a href="../she-ji-mo-shi-yuan-ze/dan-yi-zhi-ze-yuan-ze.html">
+            
+                    
+                    单一职责原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../she-ji-mo-shi-yuan-ze/li-shi-ti-huan-yuan-ze.html">
+            
+                <a href="../she-ji-mo-shi-yuan-ze/li-shi-ti-huan-yuan-ze.html">
+            
+                    
+                    里氏替换原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../she-ji-mo-shi-yuan-ze/yi-lai-dao-zhi-yuan-ze.html">
+            
+                <a href="../she-ji-mo-shi-yuan-ze/yi-lai-dao-zhi-yuan-ze.html">
+            
+                    
+                    依赖倒置原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../she-ji-mo-shi-yuan-ze/jie-kou-ge-li-yuan-ze.html">
+            
+                <a href="../she-ji-mo-shi-yuan-ze/jie-kou-ge-li-yuan-ze.html">
+            
+                    
+                    接口隔离原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../she-ji-mo-shi-yuan-ze/di-mi-te-fa-ze.html">
+            
+                <a href="../she-ji-mo-shi-yuan-ze/di-mi-te-fa-ze.html">
+            
+                    
+                    迪米特法则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../she-ji-mo-shi-yuan-ze/kai-bi-yuan-ze.html">
+            
+                <a href="../she-ji-mo-shi-yuan-ze/kai-bi-yuan-ze.html">
+            
+                    
+                    开闭原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../she-ji-mo-shi-23-zhong.html">
+            
+                <a href="../she-ji-mo-shi-23-zhong.html">
+            
+                    
+                    设计模式23种
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../she-ji-mo-shi-23-zhong/dan-li-mo-shi.html">
+            
+                <a href="../she-ji-mo-shi-23-zhong/dan-li-mo-shi.html">
+            
+                    
+                    单例模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../she-ji-mo-shi-23-zhong/gong-chang-mo-shi.html">
+            
+                <a href="../she-ji-mo-shi-23-zhong/gong-chang-mo-shi.html">
+            
+                    
+                    工厂模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../dai-ma-zhong-gou.html">
+            
+                <a href="../dai-ma-zhong-gou.html">
+            
+                    
+                    代码重构
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../dai-ma-zhong-gou/dai-ma-huai-wei-dao.html">
+            
+                <a href="../dai-ma-zhong-gou/dai-ma-huai-wei-dao.html">
+            
+                    
+                    代码坏味道
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../jeesite.html">
+            
+                <a href="../jeesite.html">
+            
+                    
+                    Jeesite
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../jeesite/springmvcbiao-qian.html">
+            
+                <a href="../jeesite/springmvcbiao-qian.html">
+            
+                    
+                    SpringMVC标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../jeesite/jspchang-yong-biao-qian.html">
+            
+                <a href="../jeesite/jspchang-yong-biao-qian.html">
+            
+                    
+                    JSP常用标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../jeesite/jquery-validate.html">
+            
+                <a href="../jeesite/jquery-validate.html">
+            
+                    
+                    Jquery-validate
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../activitigong-zuo-liu.html">
+            
+                <a href="../activitigong-zuo-liu.html">
+            
+                    
+                    Activiti工作流
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../activitigong-zuo-liu/activiti-liu-cheng-ding-yi-biao.html">
+            
+                <a href="../activitigong-zuo-liu/activiti-liu-cheng-ding-yi-biao.html">
+            
+                    
+                    流程定义表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../activitigong-zuo-liu/activiti-yun-xing-shi-li-biao.html">
+            
+                <a href="../activitigong-zuo-liu/activiti-yun-xing-shi-li-biao.html">
+            
+                    
+                    运行实例表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../activitigong-zuo-liu/liu-cheng-li-shi-ji-lu.html">
+            
+                <a href="../activitigong-zuo-liu/liu-cheng-li-shi-ji-lu.html">
+            
+                    
+                    流程历史记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../activitigong-zuo-liu/yi-ban-shu-ju.html">
+            
+                <a href="../activitigong-zuo-liu/yi-ban-shu-ju.html">
+            
+                    
+                    一般数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../activitigong-zuo-liu/yong-hu-yong-hu-zu-biao.html">
+            
+                <a href="../activitigong-zuo-liu/yong-hu-yong-hu-zu-biao.html">
+            
+                    
+                    用户用户组表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6" data-path="../activitigong-zuo-liu/bpmn.html">
+            
+                <a href="../activitigong-zuo-liu/bpmn.html">
+            
+                    
+                    BPMN
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.7" data-path="../activitigong-zuo-liu/liu-cheng-she-ji.html">
+            
+                <a href="../activitigong-zuo-liu/liu-cheng-she-ji.html">
+            
+                    
+                    流程设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../ryu-yan.html">
+            
+                <a href="../ryu-yan.html">
+            
+                    
+                    R语言
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../ryu-yan/shu-ju-jie-gou.html">
+            
+                <a href="../ryu-yan/shu-ju-jie-gou.html">
+            
+                    
+                    数据结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../ryu-yan/shi-liang-vector.html">
+            
+                <a href="../ryu-yan/shi-liang-vector.html">
+            
+                    
+                    矢量Vector
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../golang.html">
+            
+                <a href="../golang.html">
+            
+                    
+                    golang
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../golang/vimpei-zhi-cheng-ide.html">
+            
+                <a href="../golang/vimpei-zhi-cheng-ide.html">
+            
+                    
+                    vim配置成IDE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../golang/jie-gou-ti-biao-qian.html">
+            
+                <a href="../golang/jie-gou-ti-biao-qian.html">
+            
+                    
+                    结构体标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../docker.html">
+            
+                <a href="../docker.html">
+            
+                    
+                    Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../shu-ju-ku.html">
+            
+                <a href="../shu-ju-ku.html">
+            
+                    
+                    数据库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../shu-ju-ku/oracle.html">
+            
+                <a href="../shu-ju-ku/oracle.html">
+            
+                    
+                    Oracle
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1.1" data-path="../shu-ju-ku/oracle/plsql.html">
+            
+                <a href="../shu-ju-ku/oracle/plsql.html">
+            
+                    
+                    pl/sql
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.1.2" data-path="../shu-ju-ku/oracle/connect-by.html">
+            
+                <a href="../shu-ju-ku/oracle/connect-by.html">
+            
+                    
+                    connect by
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.1.3" data-path="../shu-ju-ku/oracle/chang-yong.html">
+            
+                <a href="../shu-ju-ku/oracle/chang-yong.html">
+            
+                    
+                    常用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2" data-path="../shu-ju-ku/mysql.html">
+            
+                <a href="../shu-ju-ku/mysql.html">
+            
+                    
+                    MySql
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.2.1" data-path="../shu-ju-ku/mysql/ri-qi-han-shu.html">
+            
+                <a href="../shu-ju-ku/mysql/ri-qi-han-shu.html">
+            
+                    
+                    日期函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2.2" data-path="../shu-ju-ku/mysql/chang-yong.html">
+            
+                <a href="../shu-ju-ku/mysql/chang-yong.html">
+            
+                    
+                    常用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../linux.html">
+            
+                <a href="../linux.html">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="../linux/centos.html">
+            
+                <a href="../linux/centos.html">
+            
+                    
+                    Centos
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../jquery.html">
+            
+                <a href="../jquery.html">
+            
+                    
+                    Jquery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../mybatis.html">
+            
+                <a href="../mybatis.html">
+            
+                    
+                    Mybatis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../select2.html">
+            
+                <a href="../select2.html">
+            
+                    
+                    select2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="../cron.html">
+            
+                <a href="../cron.html">
+            
+                    
+                    Cron
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="../jwt.html">
+            
+                <a href="../jwt.html">
+            
+                    
+                    JWT
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >import static和import的区别</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="import-static&#x548C;import&#x7684;&#x533A;&#x522B;">import static&#x548C;import&#x7684;&#x533A;&#x522B;</h1>
+<p>import static&#xFF08;&#x9759;&#x6001;&#x5BFC;&#x5165;&#xFF09;&#x662F;JDK1.5&#x4E2D;&#x7684;&#x65B0;&#x7279;&#x6027;&#xFF0C;&#x5BFC;&#x5165;&#x7C7B;&#x4E2D;&#x7684;<strong>&#x9759;&#x6001;&#x65B9;&#x6CD5;&#x6216;&#x9759;&#x6001;&#x6210;&#x5458;&#x53D8;&#x91CF;</strong>&#xFF0C;&#x5728;&#x5F15;&#x7528;&#x7C7B;&#x4E2D;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x4F7F;&#x7528;&#xFF0C;&#x4E0D;&#x7528;&#x201C;&#x7C7B;&#x540D;.&#x53D8;&#x91CF;&#x540D;&#x201C;&#xFF0C;&#x201C;&#x7C7B;&#x540D;.&#x65B9;&#x6CD5;&#x540D;&#x201D;&#x7684;&#x65B9;&#x5F0F;&#x3002;</p>
+<p>&#x4E0B;&#x9762;&#x662F;Spring.io&#x5B98;&#x7F51;&#x7684;&#x4F8B;&#x5B50;&#xFF08;APPLICATION_JSON&#xFF0C;fromObject&#xFF09;</p>
+<pre><code class="lang-java"><span class="hljs-keyword">import</span> <span class="hljs-keyword">static</span> org.springframework.http.MediaType.APPLICATION_JSON;
+<span class="hljs-keyword">import</span> <span class="hljs-keyword">static</span> org.springframework.web.reactive.function.BodyInserters.fromObject;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PersonHandler</span> </span>{
+
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> PersonRepository repository;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">PersonHandler</span><span class="hljs-params">(PersonRepository repository)</span> </span>{
+        <span class="hljs-keyword">this</span>.repository = repository;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> Mono&lt;ServerResponse&gt; <span class="hljs-title">listPeople</span><span class="hljs-params">(ServerRequest request)</span> </span>{ 
+        Flux&lt;Person&gt; people = repository.allPeople();
+        <span class="hljs-keyword">return</span> ServerResponse.ok().contentType(APPLICATION_JSON).body(people, Person.class);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> Mono&lt;ServerResponse&gt; <span class="hljs-title">createPerson</span><span class="hljs-params">(ServerRequest request)</span> </span>{ 
+        Mono&lt;Person&gt; person = request.bodyToMono(Person.class);
+        <span class="hljs-keyword">return</span> ServerResponse.ok().build(repository.savePerson(person));
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> Mono&lt;ServerResponse&gt; <span class="hljs-title">getPerson</span><span class="hljs-params">(ServerRequest request)</span> </span>{ 
+        <span class="hljs-keyword">int</span> personId = Integer.valueOf(request.pathVariable(<span class="hljs-string">&quot;id&quot;</span>));
+        Mono&lt;ServerResponse&gt; notFound = ServerResponse.notFound().build();
+        Mono&lt;Person&gt; personMono = <span class="hljs-keyword">this</span>.repository.getPerson(personId);
+        <span class="hljs-keyword">return</span> personMono
+                .flatMap(person -&gt; ServerResponse.ok().contentType(APPLICATION_JSON).body(fromObject(person)))
+                .switchIfEmpty(notFound);
+    }
+}
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="lei-yu-lei-zhi-jian-de-guan-xi.html" class="navigation navigation-prev " aria-label="Previous page: 类与类之间的关系">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="xiu-shi-fu.html" class="navigation navigation-next " aria-label="Next page: 修饰符">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"import static和import的区别","level":"1.3.2","depth":2,"next":{"title":"修饰符","level":"1.3.3","depth":2,"path":"java/xiu-shi-fu.md","ref":"java/xiu-shi-fu.md","articles":[]},"previous":{"title":"类与类之间的关系","level":"1.3.1","depth":2,"path":"java/lei-yu-lei-zhi-jian-de-guan-xi.md","ref":"java/lei-yu-lei-zhi-jian-de-guan-xi.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"java/import-statiche-import-de-qu-bie.md","mtime":"2018-12-07T05:19:21.336Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-07T06:09:07.722Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

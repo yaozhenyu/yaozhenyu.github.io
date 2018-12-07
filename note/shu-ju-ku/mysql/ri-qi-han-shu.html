@@ -1,0 +1,1246 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>日期函数 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="chang-yong.html" />
+    
+    
+    <link rel="prev" href="../mysql.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../spring.html">
+            
+                <a href="../../spring.html">
+            
+                    
+                    Spring
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../spring/jpa.html">
+            
+                <a href="../../spring/jpa.html">
+            
+                    
+                    JPA
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../spring/springsecurity.html">
+            
+                <a href="../../spring/springsecurity.html">
+            
+                    
+                    SpringSecurity
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../java.html">
+            
+                <a href="../../java.html">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../java/lei-yu-lei-zhi-jian-de-guan-xi.html">
+            
+                <a href="../../java/lei-yu-lei-zhi-jian-de-guan-xi.html">
+            
+                    
+                    类与类之间的关系
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../java/import-statiche-import-de-qu-bie.html">
+            
+                <a href="../../java/import-statiche-import-de-qu-bie.html">
+            
+                    
+                    import static和import的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../java/xiu-shi-fu.html">
+            
+                <a href="../../java/xiu-shi-fu.html">
+            
+                    
+                    修饰符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../../java/mei-ju-lei.html">
+            
+                <a href="../../java/mei-ju-lei.html">
+            
+                    
+                    枚举类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../../java/zhu-jie.html">
+            
+                <a href="../../java/zhu-jie.html">
+            
+                    
+                    注解
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../she-ji-mo-shi-yuan-ze.html">
+            
+                <a href="../../she-ji-mo-shi-yuan-ze.html">
+            
+                    
+                    设计模式六大原则
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../she-ji-mo-shi-yuan-ze/dan-yi-zhi-ze-yuan-ze.html">
+            
+                <a href="../../she-ji-mo-shi-yuan-ze/dan-yi-zhi-ze-yuan-ze.html">
+            
+                    
+                    单一职责原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../she-ji-mo-shi-yuan-ze/li-shi-ti-huan-yuan-ze.html">
+            
+                <a href="../../she-ji-mo-shi-yuan-ze/li-shi-ti-huan-yuan-ze.html">
+            
+                    
+                    里氏替换原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../she-ji-mo-shi-yuan-ze/yi-lai-dao-zhi-yuan-ze.html">
+            
+                <a href="../../she-ji-mo-shi-yuan-ze/yi-lai-dao-zhi-yuan-ze.html">
+            
+                    
+                    依赖倒置原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../../she-ji-mo-shi-yuan-ze/jie-kou-ge-li-yuan-ze.html">
+            
+                <a href="../../she-ji-mo-shi-yuan-ze/jie-kou-ge-li-yuan-ze.html">
+            
+                    
+                    接口隔离原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../../she-ji-mo-shi-yuan-ze/di-mi-te-fa-ze.html">
+            
+                <a href="../../she-ji-mo-shi-yuan-ze/di-mi-te-fa-ze.html">
+            
+                    
+                    迪米特法则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../../she-ji-mo-shi-yuan-ze/kai-bi-yuan-ze.html">
+            
+                <a href="../../she-ji-mo-shi-yuan-ze/kai-bi-yuan-ze.html">
+            
+                    
+                    开闭原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../she-ji-mo-shi-23-zhong.html">
+            
+                <a href="../../she-ji-mo-shi-23-zhong.html">
+            
+                    
+                    设计模式23种
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../she-ji-mo-shi-23-zhong/dan-li-mo-shi.html">
+            
+                <a href="../../she-ji-mo-shi-23-zhong/dan-li-mo-shi.html">
+            
+                    
+                    单例模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../she-ji-mo-shi-23-zhong/gong-chang-mo-shi.html">
+            
+                <a href="../../she-ji-mo-shi-23-zhong/gong-chang-mo-shi.html">
+            
+                    
+                    工厂模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../dai-ma-zhong-gou.html">
+            
+                <a href="../../dai-ma-zhong-gou.html">
+            
+                    
+                    代码重构
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../dai-ma-zhong-gou/dai-ma-huai-wei-dao.html">
+            
+                <a href="../../dai-ma-zhong-gou/dai-ma-huai-wei-dao.html">
+            
+                    
+                    代码坏味道
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../jeesite.html">
+            
+                <a href="../../jeesite.html">
+            
+                    
+                    Jeesite
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../jeesite/springmvcbiao-qian.html">
+            
+                <a href="../../jeesite/springmvcbiao-qian.html">
+            
+                    
+                    SpringMVC标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../jeesite/jspchang-yong-biao-qian.html">
+            
+                <a href="../../jeesite/jspchang-yong-biao-qian.html">
+            
+                    
+                    JSP常用标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../../jeesite/jquery-validate.html">
+            
+                <a href="../../jeesite/jquery-validate.html">
+            
+                    
+                    Jquery-validate
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../activitigong-zuo-liu.html">
+            
+                <a href="../../activitigong-zuo-liu.html">
+            
+                    
+                    Activiti工作流
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../../activitigong-zuo-liu/activiti-liu-cheng-ding-yi-biao.html">
+            
+                <a href="../../activitigong-zuo-liu/activiti-liu-cheng-ding-yi-biao.html">
+            
+                    
+                    流程定义表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../../activitigong-zuo-liu/activiti-yun-xing-shi-li-biao.html">
+            
+                <a href="../../activitigong-zuo-liu/activiti-yun-xing-shi-li-biao.html">
+            
+                    
+                    运行实例表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../../activitigong-zuo-liu/liu-cheng-li-shi-ji-lu.html">
+            
+                <a href="../../activitigong-zuo-liu/liu-cheng-li-shi-ji-lu.html">
+            
+                    
+                    流程历史记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../../activitigong-zuo-liu/yi-ban-shu-ju.html">
+            
+                <a href="../../activitigong-zuo-liu/yi-ban-shu-ju.html">
+            
+                    
+                    一般数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../../activitigong-zuo-liu/yong-hu-yong-hu-zu-biao.html">
+            
+                <a href="../../activitigong-zuo-liu/yong-hu-yong-hu-zu-biao.html">
+            
+                    
+                    用户用户组表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6" data-path="../../activitigong-zuo-liu/bpmn.html">
+            
+                <a href="../../activitigong-zuo-liu/bpmn.html">
+            
+                    
+                    BPMN
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.7" data-path="../../activitigong-zuo-liu/liu-cheng-she-ji.html">
+            
+                <a href="../../activitigong-zuo-liu/liu-cheng-she-ji.html">
+            
+                    
+                    流程设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../../ryu-yan.html">
+            
+                <a href="../../ryu-yan.html">
+            
+                    
+                    R语言
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../../ryu-yan/shu-ju-jie-gou.html">
+            
+                <a href="../../ryu-yan/shu-ju-jie-gou.html">
+            
+                    
+                    数据结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../../ryu-yan/shi-liang-vector.html">
+            
+                <a href="../../ryu-yan/shi-liang-vector.html">
+            
+                    
+                    矢量Vector
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../../golang.html">
+            
+                <a href="../../golang.html">
+            
+                    
+                    golang
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../../golang/vimpei-zhi-cheng-ide.html">
+            
+                <a href="../../golang/vimpei-zhi-cheng-ide.html">
+            
+                    
+                    vim配置成IDE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../../golang/jie-gou-ti-biao-qian.html">
+            
+                <a href="../../golang/jie-gou-ti-biao-qian.html">
+            
+                    
+                    结构体标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../../docker.html">
+            
+                <a href="../../docker.html">
+            
+                    
+                    Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../../shu-ju-ku.html">
+            
+                <a href="../../shu-ju-ku.html">
+            
+                    
+                    数据库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../oracle.html">
+            
+                <a href="../oracle.html">
+            
+                    
+                    Oracle
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1.1" data-path="../oracle/plsql.html">
+            
+                <a href="../oracle/plsql.html">
+            
+                    
+                    pl/sql
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.1.2" data-path="../oracle/connect-by.html">
+            
+                <a href="../oracle/connect-by.html">
+            
+                    
+                    connect by
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.1.3" data-path="../oracle/chang-yong.html">
+            
+                <a href="../oracle/chang-yong.html">
+            
+                    
+                    常用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2" data-path="../mysql.html">
+            
+                <a href="../mysql.html">
+            
+                    
+                    MySql
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.12.2.1" data-path="ri-qi-han-shu.html">
+            
+                <a href="ri-qi-han-shu.html">
+            
+                    
+                    日期函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2.2" data-path="chang-yong.html">
+            
+                <a href="chang-yong.html">
+            
+                    
+                    常用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../../linux.html">
+            
+                <a href="../../linux.html">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="../../linux/centos.html">
+            
+                <a href="../../linux/centos.html">
+            
+                    
+                    Centos
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../../jquery.html">
+            
+                <a href="../../jquery.html">
+            
+                    
+                    Jquery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../../mybatis.html">
+            
+                <a href="../../mybatis.html">
+            
+                    
+                    Mybatis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../../select2.html">
+            
+                <a href="../../select2.html">
+            
+                    
+                    select2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="../../cron.html">
+            
+                <a href="../../cron.html">
+            
+                    
+                    Cron
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="../../jwt.html">
+            
+                <a href="../../jwt.html">
+            
+                    
+                    JWT
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >日期函数</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x65E5;&#x671F;&#x51FD;&#x6570;">&#x65E5;&#x671F;&#x51FD;&#x6570;</h1>
+<p><strong>&#x5E38;&#x7528;&#x65E5;&#x671F;&#x51FD;&#x6570;</strong></p>
+<p><em><strong>&#x83B7;&#x53D6;&#x7CFB;&#x7EDF;&#x5F53;&#x524D;&#x65E5;&#x671F;</strong></em></p>
+<pre><code>SELECT CURDATE()
+SELECT CURRENT_DATE()
+-&gt; 2016-01-16
+-&gt; 2016-01-16
+</code></pre><p><em><strong>&#x83B7;&#x53D6;&#x7CFB;&#x7EDF;&#x5F53;&#x524D;&#x65F6;&#x95F4;</strong></em></p>
+<pre><code>SELECT CURTIME()
+SELECT CURRENT_TIME()
+-&gt; 17:44:22
+-&gt; 17:44:22
+</code></pre><p><em><strong>NOW()&#xFF0C;SYSDATE()&#xFF0C;CURRENT_TIMESTAMP()&#xFF0C;LOCALTIME()&#xFF1A;&#x83B7;&#x53D6;&#x7CFB;&#x7EDF;&#x5F53;&#x524D;&#x65E5;&#x671F;&#x548C;&#x65F6;&#x95F4;</strong></em></p>
+<pre><code>SELECT NOW()
+SELECT SYSDATE()
+SELECT CURRENT_TIMESTAMP()
+SELECT CURRENT_TIMESTAMP
+SELECT LOCALTIME()
+SELECT LOCALTIME
+-&gt; 2016-01-16 17:44:41
+-&gt; 2016-01-16 17:44:41
+-&gt; 2016-01-16 17:44:41
+-&gt; 2016-01-16 17:44:41
+-&gt; 2016-01-16 17:44:41
+-&gt; 2016-01-16 17:44:41
+</code></pre><p><em><strong>LAST_DAY(date )&#xFF1A;&#x83B7;&#x53D6;date&#x5F53;&#x6708;&#x6700;&#x540E;&#x4E00;&#x5929;&#x7684;&#x65E5;&#x671F;</strong></em></p>
+<pre><code>SELECT LAST_DAY(SYSDATE())
+SELECT LAST_DAY(&apos;2015-02-02&apos;)
+SELECT LAST_DAY(&apos;2015-02-02 00:22:33&apos;)
+-&gt; 2016-01-31
+-&gt; 2015-02-28
+-&gt; 2015-02-28
+</code></pre><p><em><strong>PERIOD_DIFF(monthStart&#xFF0C;monthEnd)</strong></em></p>
+<pre><code>SELECT PERIOD_DIFF(1601,1603)
+SELECT PERIOD_DIFF(191602,191607)
+SELECT PERIOD_DIFF(1916-02,1916-07)
+SELECT PERIOD_DIFF(1602,9002)
+&#x8BE5;&#x51FD;&#x6570;&#x8FD4;&#x56DE;monthStart - monthEnd&#x7684;&#x95F4;&#x9694;&#x6708;&#x6570;
+</code></pre><p><em><strong>DATE_ADD(date&#xFF0C;INTERVAL number type)&#xFF0C;&#x540C; ADDDATE()</strong></em></p>
+<pre><code>SELECT DATE_ADD(&quot;2015-12-31 23:59:59&quot;,INTERVAL 1 SECOND)
+SELECT DATE_ADD(&quot;2015-12-31 23:59:59&quot;,INTERVAL 1 DAY)
+SELECT DATE_ADD(&quot;2015-12-31 23:59:59&quot;,INTERVAL &quot;1:1&quot; MINUTE_SECOND)
+SELECT DATE_ADD(&quot;2016-01-01 00:00:00&quot;,INTERVAL &quot;-1 10&quot; DAY_HOUR)
+
+DATE_ADD()&#x548C;ADDDATE()&#x8FD4;&#x56DE;&#x5BF9;date&#x64CD;&#x4F5C;&#x7684;&#x7ED3;&#x679C;
+1&#x3001;date&#x7684;&#x683C;&#x5F0F;&#x53EF;&#x4EE5;&#x662F;&quot;15-12-31&quot;&#xFF0C;&#x53EF;&#x4EE5;&#x662F;&quot;15-12-31 23:59:59&quot;,&#x4E5F;&#x53EF;&#x4EE5;&#x662F;&quot;2015-12-31 23:59:59&quot;&#xFF0C;
+&#x5982;&#x679C;&#x53C2;&#x6570;date&#x662F;date&#x683C;&#x5F0F;&#xFF0C;&#x5219;&#x8FD4;&#x56DE;date&#x683C;&#x5F0F;&#x7ED3;&#x679C;&#xFF0C;&#x5982;&#x679C;&#x53C2;&#x6570;date&#x662F;datetime&#x683C;&#x5F0F;&#xFF0C;&#x5219;&#x8FD4;&#x56DE;datetime&#x683C;&#x5F0F;&#x7ED3;&#x679C;
+2&#x3001;type&#x683C;&#x5F0F;&#xFF1A;
+SECOND &#x79D2; SECONDS
+MINUTE &#x5206;&#x949F; MINUTES
+HOUR &#x65F6;&#x95F4; HOURS
+DAY &#x5929; DAYS
+MONTH &#x6708; MONTHS
+YEAR &#x5E74; YEARS
+MINUTE_SECOND &#x5206;&#x949F;&#x548C;&#x79D2; &quot;MINUTES:SECONDS&quot;
+HOUR_MINUTE &#x5C0F;&#x65F6;&#x548C;&#x5206;&#x949F; &quot;HOURS:MINUTES&quot;
+DAY_HOUR &#x5929;&#x548C;&#x5C0F;&#x65F6; &quot;DAYS HOURS&quot;
+YEAR_MONTH &#x5E74;&#x548C;&#x6708; &quot;YEARS-MONTHS&quot;
+HOUR_SECOND &#x5C0F;&#x65F6;, &#x5206;&#x949F;&#xFF0C; &quot;HOURS:MINUTES:SECONDS&quot;
+DAY_MINUTE &#x5929;, &#x5C0F;&#x65F6;, &#x5206;&#x949F; &quot;DAYS HOURS:MINUTES&quot;
+DAY_SECOND &#x5929;, &#x5C0F;&#x65F6;, &#x5206;&#x949F;, &#x79D2; &quot;DAYS HOURS:MINUTES:SECONDS&quot;
+3&#x3001;&#x53E6;&#x5916;&#xFF0C;&#x5982;&#x679C;&#x4E0D;&#x7528;&#x51FD;&#x6570;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x8003;&#x8651;&#x7528;&#x64CD;&#x4F5C;&#x7B26;&quot;+&quot;&#xFF0C;&quot;-&quot;&#xFF0C;&#x4F8B;&#x5B50;&#x5982;&#x4E0B;&#xFF1A;
+SELECT &quot;2016-01-01&quot; - INTERVAL 1 SECOND
+SELECT &quot;2016-01-01&quot; - INTERVAL 1 DAY
+SELECT &apos;2016-12-31 23:59:59&apos; + INTERVAL 1 SECOND
+SELECT &apos;2016-12-31 23:59:59&apos; + INTERVAL &quot;1:1&quot; MINUTE_SECOND
+&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#xFF1A;
+-&gt; 2015-12-31 23:59:59
+-&gt; 2015-12-31
+-&gt; 2017-01-01 00:00:00
+-&gt; 2017-01-01 00:01:00
+</code></pre><p><em><strong>DATE_SUB(date&#xFF0C;INTERVAL number type)&#xFF0C;&#x540C; SUBDATE()</strong></em></p>
+<p>&#x7528;&#x6CD5;&#x548C;DATE_ADD()&#x4E0E;ADDDATE()&#x7C7B;&#x4F3C;&#xFF0C;&#x4E00;&#x4E2A;&#x662F;&#x52A0;&#xFF0C;&#x4E00;&#x4E2A;&#x662F;&#x51CF;</p>
+<p><em><strong>DATE_FORMAT(date&#xFF0C;format)&#xFF1A;&#x6839;&#x636E;&#x53C2;&#x6570;&#x5BF9;date&#x8FDB;&#x884C;&#x683C;&#x5F0F;&#x5316;&#x3002;</strong></em></p>
+<pre><code>SELECT DATE_FORMAT(&apos;2016-01-16 22:23:00&apos;,&apos;%W %M %Y&apos;)
+SELECT DATE_FORMAT(&apos;2016-01-16 22:23:00&apos;,&apos;%D %y %a %d %m %b %j&apos;)
+SELECT DATE_FORMAT(&apos;2016-01-16 22:23:00&apos;,&apos;%H %k %I %r %T %S %w&apos;)
+SELECT DATE_FORMAT(&apos;2016-01-16 22:23:00&apos;,&apos;%Y-%m-%d %H:%i:%s&apos;)
+-&gt; Saturday January 2016
+-&gt; 16th 16 Sat 16 01 Jan 016
+-&gt; 22 22 10 10:23:00 PM 22:23:00 00 6
+-&gt; 2016-01-16 22:23:00
+format&#x7684;&#x683C;&#x5F0F;&#x90FD;&#x5217;&#x51FA;&#x6765;&#xFF1A;
+%M &#x6708;&#x540D;&#x5B57;(January&#x2026;&#x2026;December)
+%W &#x661F;&#x671F;&#x540D;&#x5B57;(Sunday&#x2026;&#x2026;Saturday)
+%D &#x6709;&#x82F1;&#x8BED;&#x524D;&#x7F00;&#x7684;&#x6708;&#x4EFD;&#x7684;&#x65E5;&#x671F;(1st, 2nd, 3rd, &#x7B49;&#x7B49;&#x3002;&#xFF09;
+%Y &#x5E74;, &#x6570;&#x5B57;, 4 &#x4F4D;
+%y &#x5E74;, &#x6570;&#x5B57;, 2 &#x4F4D;
+%a &#x7F29;&#x5199;&#x7684;&#x661F;&#x671F;&#x540D;&#x5B57;(Sun&#x2026;&#x2026;Sat)
+%d &#x6708;&#x4EFD;&#x4E2D;&#x7684;&#x5929;&#x6570;, &#x6570;&#x5B57;(00&#x2026;&#x2026;31)
+%e &#x6708;&#x4EFD;&#x4E2D;&#x7684;&#x5929;&#x6570;, &#x6570;&#x5B57;(0&#x2026;&#x2026;31)
+%m &#x6708;, &#x6570;&#x5B57;(01&#x2026;&#x2026;12)
+%c &#x6708;, &#x6570;&#x5B57;(1&#x2026;&#x2026;12)
+%b &#x7F29;&#x5199;&#x7684;&#x6708;&#x4EFD;&#x540D;&#x5B57;(Jan&#x2026;&#x2026;Dec)
+%j &#x4E00;&#x5E74;&#x4E2D;&#x7684;&#x5929;&#x6570;(001&#x2026;&#x2026;366)
+%H &#x5C0F;&#x65F6;(00&#x2026;&#x2026;23)
+%k &#x5C0F;&#x65F6;(0&#x2026;&#x2026;23)
+%h &#x5C0F;&#x65F6;(01&#x2026;&#x2026;12)
+%I &#x5C0F;&#x65F6;(01&#x2026;&#x2026;12)
+%l &#x5C0F;&#x65F6;(1&#x2026;&#x2026;12)
+%i &#x5206;&#x949F;, &#x6570;&#x5B57;(00&#x2026;&#x2026;59)
+%r &#x65F6;&#x95F4;,12 &#x5C0F;&#x65F6;(hh:mm:ss [AP]M)
+%T &#x65F6;&#x95F4;,24 &#x5C0F;&#x65F6;(hh:mm:ss)
+%S &#x79D2;(00&#x2026;&#x2026;59)
+%s &#x79D2;(00&#x2026;&#x2026;59)
+%p AM&#x6216;PM
+%w &#x4E00;&#x4E2A;&#x661F;&#x671F;&#x4E2D;&#x7684;&#x5929;&#x6570;(0=Sunday &#x2026;&#x2026;6=Saturday &#xFF09;
+%U &#x661F;&#x671F;(0&#x2026;&#x2026;52), &#x8FD9;&#x91CC;&#x661F;&#x671F;&#x5929;&#x662F;&#x661F;&#x671F;&#x7684;&#x7B2C;&#x4E00;&#x5929;
+%u &#x661F;&#x671F;(0&#x2026;&#x2026;52), &#x8FD9;&#x91CC;&#x661F;&#x671F;&#x4E00;&#x662F;&#x661F;&#x671F;&#x7684;&#x7B2C;&#x4E00;&#x5929;
+%% &#x5B57;&#x7B26;% )
+TIME_FORMAT(time,format)&#xFF1A;
+&#x5177;&#x4F53;&#x7528;&#x6CD5;&#x548C;DATE_FORMAT()&#x7C7B;&#x4F3C;,&#x4F46;TIME_FORMAT&#x53EA;&#x5904;&#x7406;&#x5C0F;&#x65F6;&#x3001;&#x5206;&#x949F;&#x548C;&#x79D2;(&#x5176;&#x4F59;&#x7B26;&#x53F7;&#x4EA7;&#x751F;&#x4E00;&#x4E2A;NULL&#x503C;&#x6216;0)
+</code></pre><p><em><strong>UNIX_TIMESTAMP&#xFF08;date&#xFF09;&#xFF1A;&#x83B7;&#x53D6;&#x65F6;&#x95F4;&#x6233;</strong></em></p>
+<pre><code>SELECT UNIX_TIMESTAMP()
+SELECT UNIX_TIMESTAMP(&apos;2016-01-16&apos;)
+SELECT UNIX_TIMESTAMP(&apos;2016-01-16 23:59:59&apos;)
+-&gt; 1452937627
+-&gt; 1452873600
+-&gt; 1452959999
+</code></pre><p><strong>&#x5176;&#x4ED6;</strong></p>
+<p><strong>DAYOFWEEK(date)</strong></p>
+<pre><code>SELECT DAYOFWEEK(&apos;2016-01-16&apos;)
+SELECT DAYOFWEEK(&apos;2016-01-16 00:00:00&apos;)(&#x8868;&#x793A;&#xFF1A;&#x661F;&#x671F;&#x5929;=1&#xFF0C;&#x661F;&#x671F;&#x4E00;=2&#xFF0C; ... &#x661F;&#x671F;&#x516D;=7)
+</code></pre><p><strong>WEEKDAY(date)</strong></p>
+<pre><code>SELECT WEEKDAY(&apos;2016-01-16&apos;)
+SELECT WEEKDAY(&apos;2016-01-16 00:00:00&apos;)
+0=&#x661F;&#x671F;&#x4E00;&#xFF0C;1=&#x661F;&#x671F;&#x4E8C;&#xFF0C; ... 5=&#x661F;&#x671F;&#x516D;
+</code></pre><p><strong>DAYOFMONTH(date)</strong></p>
+<pre><code>SELECT DAYOFMONTH(&apos;2016-01-16&apos;)
+SELECT DAYOFMONTH(&apos;2016-01-16 00:00:00&apos;)
+&#x5F53;&#x6708;&#x7684;&#x7B2C;&#x51E0;&#x5929;&#xFF0C;1&#x53F7;&#x5C31;&#x8FD4;&#x56DE;1&#xFF0C;... ,31&#x53F7;&#x5C31;&#x8FD4;&#x56DE;31
+</code></pre><p><strong>DAYOFYEAR(date)</strong></p>
+<pre><code>SELECT DAYOFYEAR(&apos;2016-03-31&apos;)
+SELECT DAYOFYEAR(&apos;2016-03-31 00:00:00&apos;)
+(&#x8868;&#x793A;&#x8FD4;&#x56DE;date&#x662F;&#x5F53;&#x5E74;&#x7684;&#x7B2C;&#x51E0;&#x5929;&#xFF0C;01.01&#x8FD4;&#x56DE;1&#xFF0C;... ,12.31&#x5C31;&#x8FD4;&#x56DE;365)
+</code></pre><p><strong>MONTH(date)</strong></p>
+<pre><code>SELECT MONTH(&apos;2016-01-16&apos;)
+SELECT MONTH(&apos;2016-01-16 00:00:00&apos;)(&#x8868;&#x793A;&#x8FD4;&#x56DE;date&#x662F;&#x5F53;&#x5E74;&#x7684;&#x7B2C;&#x51E0;&#x6708;&#xFF0C;1&#x6708;&#x5C31;&#x8FD4;&#x56DE;1&#xFF0C;... ,12&#x6708;&#x5C31;&#x8FD4;&#x56DE;12)
+</code></pre><p><strong>DAYNAME(date)</strong></p>
+<pre><code>SELECT DAYNAME(&apos;2016-01-16&apos;)
+SELECT DAYNAME(&apos;2016-01-16 00:00:00&apos;)
+(&#x8868;&#x793A;&#x8FD4;&#x56DE;date&#x662F;&#x5468;&#x51E0;&#x7684;&#x82F1;&#x6587;&#x5168;&#x79F0;&#x540D;&#x5B57;)
+</code></pre><p><strong>MONTHNAME(date</strong>)</p>
+<pre><code>SELECT MONTHNAME(&apos;2016-01-16&apos;)
+SELECT MONTHNAME(&apos;2016-01-16 00:00:00&apos;)
+(&#x8868;&#x793A;&#x8FD4;&#x56DE;date&#x7684;&#x662F;&#x5F53;&#x5E74;&#x7B2C;&#x51E0;&#x6708;&#x7684;&#x82F1;&#x6587;&#x540D;&#x5B57;)
+</code></pre><p><strong>QUARTER(date)</strong></p>
+<pre><code>SELECT QUARTER(&apos;2016-01-16&apos;)
+SELECT QUARTER(&apos;2016-01-16 00:00:00&apos;)(&#x8868;&#x793A;&#x8FD4;&#x56DE;date&#x7684;&#x662F;&#x5F53;&#x5E74;&#x7684;&#x7B2C;&#x51E0;&#x4E2A;&#x5B63;&#x5EA6;&#xFF0C;&#x8FD4;&#x56DE;1,2,3,4)
+</code></pre><p><strong>WEEK(date&#xFF0C;index)</strong></p>
+<pre><code>SELECT WEEK(&apos;2016-01-03&apos;)
+SELECT WEEK(&apos;2016-01-03&apos;, 0)
+SELECT WEEK(&apos;2016-01-03&apos;, 1)
+(&#x8BE5;&#x51FD;&#x6570;&#x8FD4;&#x56DE;date&#x5728;&#x4E00;&#x5E74;&#x5F53;&#x4E2D;&#x7684;&#x7B2C;&#x51E0;&#x5468;&#xFF0C;date(01.03)&#x662F;&#x5468;&#x65E5;&#xFF0C;&#x9ED8;&#x8BA4;&#x662F;&#x4EE5;&#x4E3A;&#x5468;&#x65E5;&#x4F5C;&#x4E3A;&#x4E00;&#x5468;&#x7684;&#x7B2C;&#x4E00;&#x5929;&#xFF0C;
+&#x51FD;&#x6570;&#x5728;&#x6B64;&#x5904;&#x8FD4;&#x56DE;1&#x53EF;&#x4EE5;&#x6709;&#x4E24;&#x79CD;&#x7406;&#x89E3;&#xFF1A;1&#x3001;&#x7B2C;&#x4E00;&#x5468;&#x8FD4;&#x56DE;0&#xFF0C;&#x7B2C;&#x4E8C;&#x5468;&#x8FD4;&#x56DE;1&#xFF0C;.... ,2&#x3001;&#x4EE5;&#x5F53;&#x5E74;&#x7684;&#x5B8C;&#x6574;&#x5468;&#x5F00;&#x59CB;&#x8BA1;&#x6570;&#xFF0C;&#x7B2C;&#x4E00;&#x5468;&#x8FD4;&#x56DE;1&#xFF0C;&#x7B2C;&#x4E8C;&#x5468;&#x8FD4;&#x56DE;2&#xFF0C;... &#xFF0C;
+&#x6700;&#x540E;&#x4E00;&#x5468;&#x8FD4;&#x56DE;53)
+(week()&#x9ED8;&#x8BA4;index&#x5C31;&#x662F;0. &#x6240;&#x4EE5;&#x7ED3;&#x679C;&#x540C;&#x4E0A;)(&#x5F53;index&#x4E3A;1&#x65F6;&#xFF0C;&#x8868;&#x793A;&#x4E00;&#x5468;&#x7684;&#x7B2C;&#x4E00;&#x5929;&#x662F;&#x5468;&#x4E00;&#xFF0C;&#x6240;&#x4EE5;&#xFF0C;4&#x53F7;&#x5468;&#x4E00;&#x624D;&#x662F;&#x7B2C;&#x4E8C;&#x5468;&#x7684;&#x5F00;&#x59CB;&#x65E5;)
+</code></pre><p><strong>YEAR(date)</strong></p>
+<pre><code>SELECT YEAR(&apos;70-01-16&apos;)
+SELECT YEAR(&apos;2070-01-16&apos;)
+SELECT YEAR(&apos;69-01-16 00:00:00&apos;)(&#x8868;&#x793A;&#x8FD4;&#x56DE;date&#x7684;4&#x4F4D;&#x6570;&#x5E74;&#x4EFD;)
+&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF1A;&#x5982;&#x679C;&#x5E74;&#x4EFD;&#x53EA;&#x6709;&#x4E24;&#x4F4D;&#x6570;&#xFF0C;&#x90A3;&#x4E48;&#x81EA;&#x52A8;&#x8865;&#x5168;&#x7684;&#x673A;&#x5236;&#x662F;&#x4EE5;&#x9ED8;&#x8BA4;&#x65F6;&#x95F4;1970.01.01&#x4E3A;&#x754C;&#x9650;&#x7684;&#xFF0C;&gt;= 70 &#x7684;&#x8865;&#x5168; 19&#xFF0C;&lt; 70 &#x7684;&#x8865;&#x5168; 20
+</code></pre><p><strong>HOUR(time)</strong></p>
+<pre><code>SELECT HOUR(&apos;11:22:33&apos;)
+SELECT HOUR(&apos;2016-01-16 11:22:33&apos;)
+&#x8FD4;&#x56DE;&#x8BE5;date&#x6216;&#x8005;time&#x7684;hour&#x503C;&#xFF0C;&#x503C;&#x8303;&#x56F4;&#xFF08;0-23&#xFF09;
+</code></pre><p><strong>MINUTE(time)</strong></p>
+<pre><code>SELECT MINUTE(&apos;11:22:33&apos;)
+SELECT MINUTE(&apos;2016-01-16 11:44:33&apos;)
+&#x8FD4;&#x56DE;&#x8BE5;time&#x7684;minute&#x503C;&#xFF0C;&#x503C;&#x8303;&#x56F4;&#xFF08;0-59&#xFF09;
+</code></pre><p><strong>SECOND(time)</strong></p>
+<pre><code>SELECT SECOND(&apos;11:22:33&apos;)
+SELECT SECOND(&apos;2016-01-16 11:44:22&apos;)
+&#x8FD4;&#x56DE;&#x8BE5;time&#x7684;minute&#x503C;&#xFF0C;&#x503C;&#x8303;&#x56F4;&#xFF08;0-59&#xFF09;
+</code></pre><p><strong>TO_DAYS(date)</strong></p>
+<pre><code>SELECT TO_DAYS(&apos;2016-01-16&apos;)
+SELECT TO_DAYS(&apos;20160116&apos;)
+SELECT TO_DAYS(&apos;160116&apos;)
+-&gt; 736344
+-&gt; 736344
+-&gt; 736344
+&#x8FD4;&#x56DE;&#x897F;&#x5143;0&#x5E74;&#x81F3;&#x65E5;&#x671F;date&#x662F;&#x603B;&#x5171;&#x591A;&#x5C11;&#x5929;
+</code></pre><p><strong>FROM_DAYS(dat</strong>e)</p>
+<pre><code>SELECT FROM_DAYS(367)
+-&gt; 0001-01-02
+&#x8FD4;&#x56DE;&#x897F;&#x5143;0&#x5E74;&#x81F3;&#x4ECA;&#x591A;&#x5C11;&#x5929;&#x7684;DATE&#x503C;
+</code></pre><p><strong>FROM_UNIXTIME(unix_timestamp,format)&#xFF1A;&#x628A;&#x65F6;&#x95F4;&#x6233;&#x8F6C;&#x5316;&#x6210;&#x65E5;&#x671F;&#x65F6;&#x95F4;</strong></p>
+<pre><code>SELECT FROM_UNIXTIME(1452959999)
+SELECT FROM_UNIXTIME(1452959999,&apos;%Y-%m-%d %H:%i:%s&apos;)
+-&gt; 2016-01-16 23:59:59
+-&gt; 2016-01-16 23:59:59
+</code></pre><p><strong>SEC_TO_TIME(seconds)&#xFF1A;&#x628A;&#x79D2;&#x6570;&#x8F6C;&#x5316;&#x6210;&#x65F6;&#x95F4;</strong></p>
+<pre><code>SELECT SEC_TO_TIME(2378)
+-&gt; 00:39:38
+</code></pre><p><strong>TIME_TO_SEC(time)&#xFF1A;&#x628A;&#x65F6;&#x95F4;&#x8F6C;&#x5316;&#x6210;&#x79D2;&#x6570;</strong></p>
+<pre><code>SELECT TIME_TO_SEC(&apos;22:23:00&apos;)
+-&gt; 2378
+</code></pre><p><strong>ADDTIME(time&#xFF0C;times)&#xFF1A;&#x628A;times&#x52A0;&#x5230;time&#x4E0A;</strong></p>
+<p><code>SELECT ADDTIME(&quot;2015-12-31 23:59:59&quot;,&apos;01:01:01&apos;)</code></p>
+<p><code>-&gt; 2016-01-01 01:01:00</code></p>
+<p><strong>CONVERT_TZ(date,from_tz ,to_tz )&#xFF1A;&#x8F6C;&#x6362;&#x65F6;&#x533A;</strong></p>
+<pre><code>SELECT CONVERT_TZ(&apos;2004-01-01 12:00:00&apos;,&apos;+00:00&apos;,&apos;+10:00&apos;)
+-&gt; 2004-01-01 22:00:00
+</code></pre><p><strong>STR_TO_DATE(date&#xFF0C;format )&#xFF1A;&#x5C06;&#x5B57;&#x7B26;&#x4E32;&#x8F6C;&#x6210;format&#x683C;&#x5F0F;&#x7684;&#x65E5;&#x671F;&#x65F6;&#x95F4;</strong></p>
+<pre><code>SELECT STR_TO_DATE(&apos;2015-01-01&apos;, &apos;%Y-%m-%d&apos;)
+-&gt; 2015-01-01
+</code></pre><p><strong>MAKEDATE(year ,dayofyear )&#xFF1A;&#x6839;&#x636E;&#x53C2;&#x6570;&#xFF08;&#x5E74;&#x4EFD;&#xFF0C;&#x7B2C;&#x591A;&#x5C11;&#x5929;&#xFF09;&#x83B7;&#x53D6;&#x65E5;&#x671F;</strong></p>
+<pre><code>SELECT MAKEDATE(2015 ,32)
+-&gt; 2015-02-01
+</code></pre><p><strong>MAKETIME(hour ,minute ,second )&#xFF1A;&#x6839;&#x636E;&#x53C2;&#x6570;&#xFF08;&#x65F6;&#xFF0C;&#x5206;&#xFF0C;&#x79D2;&#xFF09;&#x83B7;&#x53D6;&#x65F6;</strong>&#x95F4;</p>
+<pre><code>SELECT MAKETIME(12 ,23 ,34 )
+-&gt; 12:23:34
+</code></pre><p><strong>YEARWEEK(date)&#xFF1A;&#x83B7;&#x53D6;&#x65E5;&#x671F;&#x7684;&#x5E74;&#x548C;&#x5468;</strong></p>
+<pre><code>SELECT YEARWEEK(SYSDATE())
+SELECT YEARWEEK(&apos;2015-01-10&apos;)
+SELECT YEARWEEK(&apos;2015-01-10&apos;,1)
+-&gt; 201602
+-&gt; 201501
+-&gt; 201502
+35&#x3001;WEEKOFYEAR(date)&#xFF1A;&#x83B7;&#x53D6;&#x5F53;&#x65E5;&#x662F;&#x5F53;&#x5E74;&#x7684;&#x7B2C;&#x51E0;&#x5468;
+SELECT WEEKOFYEAR(SYSDATE())
+SELECT WEEKOFYEAR(&apos;2015-01-10&apos;)
+-&gt; 2
+-&gt; 2
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../mysql.html" class="navigation navigation-prev " aria-label="Previous page: MySql">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="chang-yong.html" class="navigation navigation-next " aria-label="Next page: 常用">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"日期函数","level":"1.12.2.1","depth":3,"next":{"title":"常用","level":"1.12.2.2","depth":3,"path":"shu-ju-ku/mysql/chang-yong.md","ref":"shu-ju-ku/mysql/chang-yong.md","articles":[]},"previous":{"title":"MySql","level":"1.12.2","depth":2,"path":"shu-ju-ku/mysql.md","ref":"shu-ju-ku/mysql.md","articles":[{"title":"日期函数","level":"1.12.2.1","depth":3,"path":"shu-ju-ku/mysql/ri-qi-han-shu.md","ref":"shu-ju-ku/mysql/ri-qi-han-shu.md","articles":[]},{"title":"常用","level":"1.12.2.2","depth":3,"path":"shu-ju-ku/mysql/chang-yong.md","ref":"shu-ju-ku/mysql/chang-yong.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"shu-ju-ku/mysql/ri-qi-han-shu.md","mtime":"2018-12-07T05:19:21.388Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-07T06:09:07.722Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

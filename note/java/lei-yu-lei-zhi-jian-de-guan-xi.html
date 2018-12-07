@@ -1,0 +1,1034 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>类与类之间的关系 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="import-statiche-import-de-qu-bie.html" />
+    
+    
+    <link rel="prev" href="../java.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../spring.html">
+            
+                <a href="../spring.html">
+            
+                    
+                    Spring
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../spring/jpa.html">
+            
+                <a href="../spring/jpa.html">
+            
+                    
+                    JPA
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../spring/springsecurity.html">
+            
+                <a href="../spring/springsecurity.html">
+            
+                    
+                    SpringSecurity
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../java.html">
+            
+                <a href="../java.html">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.1" data-path="lei-yu-lei-zhi-jian-de-guan-xi.html">
+            
+                <a href="lei-yu-lei-zhi-jian-de-guan-xi.html">
+            
+                    
+                    类与类之间的关系
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="import-statiche-import-de-qu-bie.html">
+            
+                <a href="import-statiche-import-de-qu-bie.html">
+            
+                    
+                    import static和import的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="xiu-shi-fu.html">
+            
+                <a href="xiu-shi-fu.html">
+            
+                    
+                    修饰符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="mei-ju-lei.html">
+            
+                <a href="mei-ju-lei.html">
+            
+                    
+                    枚举类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="zhu-jie.html">
+            
+                <a href="zhu-jie.html">
+            
+                    
+                    注解
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../she-ji-mo-shi-yuan-ze.html">
+            
+                <a href="../she-ji-mo-shi-yuan-ze.html">
+            
+                    
+                    设计模式六大原则
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../she-ji-mo-shi-yuan-ze/dan-yi-zhi-ze-yuan-ze.html">
+            
+                <a href="../she-ji-mo-shi-yuan-ze/dan-yi-zhi-ze-yuan-ze.html">
+            
+                    
+                    单一职责原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../she-ji-mo-shi-yuan-ze/li-shi-ti-huan-yuan-ze.html">
+            
+                <a href="../she-ji-mo-shi-yuan-ze/li-shi-ti-huan-yuan-ze.html">
+            
+                    
+                    里氏替换原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../she-ji-mo-shi-yuan-ze/yi-lai-dao-zhi-yuan-ze.html">
+            
+                <a href="../she-ji-mo-shi-yuan-ze/yi-lai-dao-zhi-yuan-ze.html">
+            
+                    
+                    依赖倒置原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../she-ji-mo-shi-yuan-ze/jie-kou-ge-li-yuan-ze.html">
+            
+                <a href="../she-ji-mo-shi-yuan-ze/jie-kou-ge-li-yuan-ze.html">
+            
+                    
+                    接口隔离原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../she-ji-mo-shi-yuan-ze/di-mi-te-fa-ze.html">
+            
+                <a href="../she-ji-mo-shi-yuan-ze/di-mi-te-fa-ze.html">
+            
+                    
+                    迪米特法则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../she-ji-mo-shi-yuan-ze/kai-bi-yuan-ze.html">
+            
+                <a href="../she-ji-mo-shi-yuan-ze/kai-bi-yuan-ze.html">
+            
+                    
+                    开闭原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../she-ji-mo-shi-23-zhong.html">
+            
+                <a href="../she-ji-mo-shi-23-zhong.html">
+            
+                    
+                    设计模式23种
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../she-ji-mo-shi-23-zhong/dan-li-mo-shi.html">
+            
+                <a href="../she-ji-mo-shi-23-zhong/dan-li-mo-shi.html">
+            
+                    
+                    单例模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../she-ji-mo-shi-23-zhong/gong-chang-mo-shi.html">
+            
+                <a href="../she-ji-mo-shi-23-zhong/gong-chang-mo-shi.html">
+            
+                    
+                    工厂模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../dai-ma-zhong-gou.html">
+            
+                <a href="../dai-ma-zhong-gou.html">
+            
+                    
+                    代码重构
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../dai-ma-zhong-gou/dai-ma-huai-wei-dao.html">
+            
+                <a href="../dai-ma-zhong-gou/dai-ma-huai-wei-dao.html">
+            
+                    
+                    代码坏味道
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../jeesite.html">
+            
+                <a href="../jeesite.html">
+            
+                    
+                    Jeesite
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../jeesite/springmvcbiao-qian.html">
+            
+                <a href="../jeesite/springmvcbiao-qian.html">
+            
+                    
+                    SpringMVC标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../jeesite/jspchang-yong-biao-qian.html">
+            
+                <a href="../jeesite/jspchang-yong-biao-qian.html">
+            
+                    
+                    JSP常用标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../jeesite/jquery-validate.html">
+            
+                <a href="../jeesite/jquery-validate.html">
+            
+                    
+                    Jquery-validate
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../activitigong-zuo-liu.html">
+            
+                <a href="../activitigong-zuo-liu.html">
+            
+                    
+                    Activiti工作流
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../activitigong-zuo-liu/activiti-liu-cheng-ding-yi-biao.html">
+            
+                <a href="../activitigong-zuo-liu/activiti-liu-cheng-ding-yi-biao.html">
+            
+                    
+                    流程定义表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../activitigong-zuo-liu/activiti-yun-xing-shi-li-biao.html">
+            
+                <a href="../activitigong-zuo-liu/activiti-yun-xing-shi-li-biao.html">
+            
+                    
+                    运行实例表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../activitigong-zuo-liu/liu-cheng-li-shi-ji-lu.html">
+            
+                <a href="../activitigong-zuo-liu/liu-cheng-li-shi-ji-lu.html">
+            
+                    
+                    流程历史记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../activitigong-zuo-liu/yi-ban-shu-ju.html">
+            
+                <a href="../activitigong-zuo-liu/yi-ban-shu-ju.html">
+            
+                    
+                    一般数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../activitigong-zuo-liu/yong-hu-yong-hu-zu-biao.html">
+            
+                <a href="../activitigong-zuo-liu/yong-hu-yong-hu-zu-biao.html">
+            
+                    
+                    用户用户组表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6" data-path="../activitigong-zuo-liu/bpmn.html">
+            
+                <a href="../activitigong-zuo-liu/bpmn.html">
+            
+                    
+                    BPMN
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.7" data-path="../activitigong-zuo-liu/liu-cheng-she-ji.html">
+            
+                <a href="../activitigong-zuo-liu/liu-cheng-she-ji.html">
+            
+                    
+                    流程设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../ryu-yan.html">
+            
+                <a href="../ryu-yan.html">
+            
+                    
+                    R语言
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../ryu-yan/shu-ju-jie-gou.html">
+            
+                <a href="../ryu-yan/shu-ju-jie-gou.html">
+            
+                    
+                    数据结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../ryu-yan/shi-liang-vector.html">
+            
+                <a href="../ryu-yan/shi-liang-vector.html">
+            
+                    
+                    矢量Vector
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../golang.html">
+            
+                <a href="../golang.html">
+            
+                    
+                    golang
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../golang/vimpei-zhi-cheng-ide.html">
+            
+                <a href="../golang/vimpei-zhi-cheng-ide.html">
+            
+                    
+                    vim配置成IDE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../golang/jie-gou-ti-biao-qian.html">
+            
+                <a href="../golang/jie-gou-ti-biao-qian.html">
+            
+                    
+                    结构体标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../docker.html">
+            
+                <a href="../docker.html">
+            
+                    
+                    Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../shu-ju-ku.html">
+            
+                <a href="../shu-ju-ku.html">
+            
+                    
+                    数据库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../shu-ju-ku/oracle.html">
+            
+                <a href="../shu-ju-ku/oracle.html">
+            
+                    
+                    Oracle
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1.1" data-path="../shu-ju-ku/oracle/plsql.html">
+            
+                <a href="../shu-ju-ku/oracle/plsql.html">
+            
+                    
+                    pl/sql
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.1.2" data-path="../shu-ju-ku/oracle/connect-by.html">
+            
+                <a href="../shu-ju-ku/oracle/connect-by.html">
+            
+                    
+                    connect by
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.1.3" data-path="../shu-ju-ku/oracle/chang-yong.html">
+            
+                <a href="../shu-ju-ku/oracle/chang-yong.html">
+            
+                    
+                    常用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2" data-path="../shu-ju-ku/mysql.html">
+            
+                <a href="../shu-ju-ku/mysql.html">
+            
+                    
+                    MySql
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.2.1" data-path="../shu-ju-ku/mysql/ri-qi-han-shu.html">
+            
+                <a href="../shu-ju-ku/mysql/ri-qi-han-shu.html">
+            
+                    
+                    日期函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2.2" data-path="../shu-ju-ku/mysql/chang-yong.html">
+            
+                <a href="../shu-ju-ku/mysql/chang-yong.html">
+            
+                    
+                    常用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../linux.html">
+            
+                <a href="../linux.html">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="../linux/centos.html">
+            
+                <a href="../linux/centos.html">
+            
+                    
+                    Centos
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../jquery.html">
+            
+                <a href="../jquery.html">
+            
+                    
+                    Jquery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../mybatis.html">
+            
+                <a href="../mybatis.html">
+            
+                    
+                    Mybatis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../select2.html">
+            
+                <a href="../select2.html">
+            
+                    
+                    select2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="../cron.html">
+            
+                <a href="../cron.html">
+            
+                    
+                    Cron
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="../jwt.html">
+            
+                <a href="../jwt.html">
+            
+                    
+                    JWT
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >类与类之间的关系</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="java&#x7C7B;&#x4E0E;&#x7C7B;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;">Java&#x7C7B;&#x4E0E;&#x7C7B;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;</h1>
+<p><strong>&#x4E00;&#x3001;&#x7EE7;&#x627F;&#x5173;&#x7CFB;</strong></p>
+<p>&#x7EE7;&#x627F;&#x6307;&#x7684;&#x662F;&#x4E00;&#x4E2A;&#x7C7B;&#xFF08;&#x79F0;&#x4E3A;&#x5B50;&#x7C7B;&#x3001;&#x5B50;&#x63A5;&#x53E3;&#xFF09;&#x7EE7;&#x627F;&#x53E6;&#x5916;&#x7684;&#x4E00;&#x4E2A;&#x7C7B;&#xFF08;&#x79F0;&#x4E3A;&#x7236;&#x7C7B;&#x3001;&#x7236;&#x63A5;&#x53E3;&#xFF09;&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x5E76;&#x53EF;&#x4EE5;&#x589E;&#x52A0;&#x5B83;&#x81EA;&#x5DF1;&#x7684;&#x65B0;&#x529F;&#x80FD;&#x7684;&#x80FD;&#x529B;&#x3002;&#x5728;Java&#x4E2D;&#x7EE7;&#x627F;&#x5173;&#x7CFB;&#x901A;&#x8FC7;&#x5173;&#x952E;&#x5B57;extends&#x660E;&#x786E;&#x6807;&#x8BC6;&#xFF0C;&#x5728;&#x8BBE;&#x8BA1;&#x65F6;&#x4E00;&#x822C;&#x6CA1;&#x6709;&#x4E89;&#x8BAE;&#x6027;&#x3002;&#x5728;UML&#x7C7B;&#x56FE;&#x8BBE;&#x8BA1;&#x4E2D;&#xFF0C;&#x7EE7;&#x627F;&#x7528;&#x4E00;&#x6761;&#x5E26;&#x7A7A;&#x5FC3;&#x4E09;&#x89D2;&#x7BAD;&#x5934;&#x7684;&#x5B9E;&#x7EBF;&#x8868;&#x793A;&#xFF0C;&#x4ECE;&#x5B50;&#x7C7B;&#x6307;&#x5411;&#x7236;&#x7C7B;&#xFF0C;&#x6216;&#x8005;&#x5B50;&#x63A5;&#x53E3;&#x6307;&#x5411;&#x7236;&#x63A5;&#x53E3;&#x3002;</p>
+<p><strong>&#x4E8C;&#x3001;&#x5B9E;&#x73B0;&#x5173;&#x7CFB;</strong><br>&#x5B9E;&#x73B0;&#x6307;&#x7684;&#x662F;&#x4E00;&#x4E2A;class&#x7C7B;&#x5B9E;&#x73B0;interface&#x63A5;&#x53E3;&#xFF08;&#x53EF;&#x4EE5;&#x662F;&#x591A;&#x4E2A;&#xFF09;&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x5B9E;&#x73B0;&#x662F;&#x7C7B;&#x4E0E;&#x63A5;&#x53E3;&#x4E4B;&#x95F4;&#x6700;&#x5E38;&#x89C1;&#x7684;&#x5173;&#x7CFB;&#x3002;&#x5728;Java&#x4E2D;&#x6B64;&#x7C7B;&#x5173;&#x7CFB;&#x901A;&#x8FC7;&#x5173;&#x952E;&#x5B57;implements&#x660E;&#x786E;&#x6807;&#x8BC6;&#xFF0C;&#x5728;&#x8BBE;&#x8BA1;&#x65F6;&#x4E00;&#x822C;&#x6CA1;&#x6709;&#x4E89;&#x8BAE;&#x6027;&#x3002;&#x5728;UML&#x7C7B;&#x56FE;&#x8BBE;&#x8BA1;&#x4E2D;&#xFF0C;&#x5B9E;&#x73B0;&#x7528;&#x4E00;&#x6761;&#x5E26;&#x7A7A;&#x5FC3;&#x4E09;&#x89D2;&#x7BAD;&#x5934;&#x7684;&#x865A;&#x7EBF;&#x8868;&#x793A;&#xFF0C;&#x4ECE;&#x7C7B;&#x6307;&#x5411;&#x5B9E;&#x73B0;&#x7684;&#x63A5;&#x53E3;&#x3002;</p>
+<p><strong>&#x4E09;&#x3001;&#x4F9D;&#x8D56;&#x5173;&#x7CFB;</strong></p>
+<p>&#x7B80;&#x5355;&#x7684;&#x7406;&#x89E3;&#xFF0C;&#x4F9D;&#x8D56;&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x7C7B;A&#x4F7F;&#x7528;&#x5230;&#x4E86;&#x53E6;&#x4E00;&#x4E2A;&#x7C7B;B&#xFF0C;&#x800C;&#x8FD9;&#x79CD;&#x4F7F;&#x7528;&#x5173;&#x7CFB;&#x662F;&#x5177;&#x6709;&#x5076;&#x7136;&#x6027;&#x7684;&#x3001;&#x4E34;&#x65F6;&#x6027;&#x7684;&#x3001;&#x975E;&#x5E38;&#x5F31;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#x7C7B;B&#x7684;&#x53D8;&#x5316;&#x4F1A;&#x5F71;&#x54CD;&#x5230;&#x7C7B;A&#x3002;&#x6BD4;&#x5982;&#x67D0;&#x4EBA;&#x8981;&#x8FC7;&#x6CB3;&#xFF0C;&#x9700;&#x8981;&#x501F;&#x7528;&#x4E00;&#x6761;&#x8239;&#xFF0C;&#x6B64;&#x65F6;&#x4EBA;&#x4E0E;&#x8239;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;&#x5C31;&#x662F;&#x4F9D;&#x8D56;&#x3002;&#x8868;&#x73B0;&#x5728;&#x4EE3;&#x7801;&#x5C42;&#x9762;&#xFF0C;&#x4E3A;&#x7C7B;B&#x4F5C;&#x4E3A;&#x53C2;&#x6570;&#x88AB;&#x7C7B;A&#x5728;&#x67D0;&#x4E2A;method&#x65B9;&#x6CD5;&#x4E2D;&#x4F7F;&#x7528;&#x3002;&#x5728;UML&#x7C7B;&#x56FE;&#x8BBE;&#x8BA1;&#x4E2D;&#xFF0C;&#x4F9D;&#x8D56;&#x5173;&#x7CFB;&#x7528;&#x7531;&#x7C7B;A&#x6307;&#x5411;&#x7C7B;B&#x7684;&#x5E26;&#x7BAD;&#x5934;&#x865A;&#x7EBF;&#x8868;&#x793A;&#x3002;</p>
+<p><strong>&#x56DB;&#x3001;&#x5173;&#x8054;&#x5173;&#x7CFB; </strong></p>
+<p>&#x5173;&#x8054;&#x4F53;&#x73B0;&#x7684;&#x662F;&#x4E24;&#x4E2A;&#x7C7B;&#x4E4B;&#x95F4;&#x8BED;&#x4E49;&#x7EA7;&#x522B;&#x7684;&#x4E00;&#x79CD;&#x5F3A;&#x4F9D;&#x8D56;&#x5173;&#x7CFB;&#xFF0C;&#x6BD4;&#x5982;&#x6211;&#x548C;&#x6211;&#x7684;&#x670B;&#x53CB;&#xFF0C;&#x8FD9;&#x79CD;&#x5173;&#x7CFB;&#x6BD4;&#x4F9D;&#x8D56;&#x66F4;&#x5F3A;&#x3001;&#x4E0D;&#x5B58;&#x5728;&#x4F9D;&#x8D56;&#x5173;&#x7CFB;&#x7684;&#x5076;&#x7136;&#x6027;&#x3001;&#x5173;&#x7CFB;&#x4E5F;&#x4E0D;&#x662F;&#x4E34;&#x65F6;&#x6027;&#x7684;&#xFF0C;&#x4E00;&#x822C;&#x662F;&#x957F;&#x671F;&#x6027;&#x7684;&#xFF0C;&#x800C;&#x4E14;&#x53CC;&#x65B9;&#x7684;&#x5173;&#x7CFB;&#x4E00;&#x822C;&#x662F;&#x5E73;&#x7B49;&#x7684;&#x3002;&#x5173;&#x8054;&#x53EF;&#x4EE5;&#x662F;&#x5355;&#x5411;&#x3001;&#x53CC;&#x5411;&#x7684;&#x3002;&#x8868;&#x73B0;&#x5728;&#x4EE3;&#x7801;&#x5C42;&#x9762;&#xFF0C;&#x4E3A;&#x88AB;&#x5173;&#x8054;&#x7C7B;B&#x4EE5;&#x7C7B;&#x7684;&#x5C5E;&#x6027;&#x5F62;&#x5F0F;&#x51FA;&#x73B0;&#x5728;&#x5173;&#x8054;&#x7C7B;A&#x4E2D;&#xFF0C;&#x4E5F;&#x53EF;&#x80FD;&#x662F;&#x5173;&#x8054;&#x7C7B;A&#x5F15;&#x7528;&#x4E86;&#x4E00;&#x4E2A;&#x7C7B;&#x578B;&#x4E3A;&#x88AB;&#x5173;&#x8054;&#x7C7B;B&#x7684;&#x5168;&#x5C40;&#x53D8;&#x91CF;&#x3002;&#x5728;UML&#x7C7B;&#x56FE;&#x8BBE;&#x8BA1;&#x4E2D;&#xFF0C;&#x5173;&#x8054;&#x5173;&#x7CFB;&#x7528;&#x7531;&#x5173;&#x8054;&#x7C7B;A&#x6307;&#x5411;&#x88AB;&#x5173;&#x8054;&#x7C7B;B&#x7684;&#x5E26;&#x7BAD;&#x5934;&#x5B9E;&#x7EBF;&#x8868;&#x793A;&#xFF0C;&#x5728;&#x5173;&#x8054;&#x7684;&#x4E24;&#x7AEF;&#x53EF;&#x4EE5;&#x6807;&#x6CE8;&#x5173;&#x8054;&#x53CC;&#x65B9;&#x7684;&#x89D2;&#x8272;&#x548C;&#x591A;&#x91CD;&#x6027;&#x6807;&#x8BB0;&#x3002;</p>
+<p><strong>&#x4E94;&#x3001;&#x805A;&#x5408;&#x5173;&#x7CFB;</strong><em>    
+</em>&#x805A;&#x5408;&#x662F;&#x5173;&#x8054;&#x5173;&#x7CFB;&#x7684;&#x4E00;&#x79CD;&#x7279;&#x4F8B;&#xFF0C;&#x5B83;&#x4F53;&#x73B0;&#x7684;&#x662F;&#x6574;&#x4F53;&#x4E0E;&#x90E8;&#x5206;&#x7684;&#x5173;&#x7CFB;&#xFF0C;&#x5373;has-a&#x7684;&#x5173;&#x7CFB;&#x3002;&#x6B64;&#x65F6;&#x6574;&#x4F53;&#x4E0E;&#x90E8;&#x5206;&#x4E4B;&#x95F4;&#x662F;&#x53EF;&#x5206;&#x79BB;&#x7684;&#xFF0C;&#x5B83;&#x4EEC;&#x53EF;&#x4EE5;&#x5177;&#x6709;&#x5404;&#x81EA;&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#xFF0C;&#x90E8;&#x5206;&#x53EF;&#x4EE5;&#x5C5E;&#x4E8E;&#x591A;&#x4E2A;&#x6574;&#x4F53;&#x5BF9;&#x8C61;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x4E3A;&#x591A;&#x4E2A;&#x6574;&#x4F53;&#x5BF9;&#x8C61;&#x5171;&#x4EAB;&#x3002;&#x6BD4;&#x5982;&#x8BA1;&#x7B97;&#x673A;&#x4E0E;CPU&#x3001;&#x516C;&#x53F8;&#x4E0E;&#x5458;&#x5DE5;&#x7684;&#x5173;&#x7CFB;&#x7B49;&#xFF0C;&#x6BD4;&#x5982;&#x4E00;&#x4E2A;&#x822A;&#x6BCD;&#x7F16;&#x961F;&#x5305;&#x62EC;&#x6D77;&#x7A7A;&#x6BCD;&#x8230;&#x3001;&#x9A71;&#x62A4;&#x8230;&#x8247;&#x3001;&#x8230;&#x8F7D;&#x98DE;&#x673A;&#x53CA;&#x6838;&#x52A8;&#x529B;&#x653B;&#x51FB;&#x6F5C;&#x8247;&#x7B49;&#x3002;&#x8868;&#x73B0;&#x5728;&#x4EE3;&#x7801;&#x5C42;&#x9762;&#xFF0C;&#x548C;&#x5173;&#x8054;&#x5173;&#x7CFB;&#x662F;&#x4E00;&#x81F4;&#x7684;&#xFF0C;&#x53EA;&#x80FD;&#x4ECE;&#x8BED;&#x4E49;&#x7EA7;&#x522B;&#x6765;&#x533A;&#x5206;&#x3002;&#x5728;UML&#x7C7B;&#x56FE;&#x8BBE;&#x8BA1;&#x4E2D;&#xFF0C;&#x805A;&#x5408;&#x5173;&#x7CFB;&#x4EE5;&#x7A7A;&#x5FC3;&#x83F1;&#x5F62;&#x52A0;&#x5B9E;&#x7EBF;&#x7BAD;&#x5934;&#x8868;&#x793A;&#x3002;</p>
+<p><strong>&#x516D;&#x3001;&#x7EC4;&#x5408;&#x5173;&#x7CFB;</strong><br>   &#x7EC4;&#x5408;&#x4E5F;&#x662F;&#x5173;&#x8054;&#x5173;&#x7CFB;&#x7684;&#x4E00;&#x79CD;&#x7279;&#x4F8B;&#xFF0C;&#x5B83;&#x4F53;&#x73B0;&#x7684;&#x662F;&#x4E00;&#x79CD;contains-a&#x7684;&#x5173;&#x7CFB;&#xFF0C;&#x8FD9;&#x79CD;&#x5173;&#x7CFB;&#x6BD4;&#x805A;&#x5408;&#x66F4;&#x5F3A;&#xFF0C;&#x4E5F;&#x79F0;&#x4E3A;&#x5F3A;&#x805A;&#x5408;&#x3002;&#x5B83;&#x540C;&#x6837;&#x4F53;&#x73B0;&#x6574;&#x4F53;&#x4E0E;&#x90E8;&#x5206;&#x95F4;&#x7684;&#x5173;&#x7CFB;&#xFF0C;&#x4F46;&#x6B64;&#x65F6;&#x6574;&#x4F53;&#x4E0E;&#x90E8;&#x5206;&#x662F;&#x4E0D;&#x53EF;&#x5206;&#x7684;&#xFF0C;&#x6574;&#x4F53;&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x7ED3;&#x675F;&#x4E5F;&#x5C31;&#x610F;&#x5473;&#x7740;&#x90E8;&#x5206;&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x7ED3;&#x675F;&#xFF0C;&#x6BD4;&#x5982;&#x4EBA;&#x548C;&#x4EBA;&#x7684;&#x5927;&#x8111;&#x3002;&#x8868;&#x73B0;&#x5728;&#x4EE3;&#x7801;&#x5C42;&#x9762;&#xFF0C;&#x548C;&#x5173;&#x8054;&#x5173;&#x7CFB;&#x662F;&#x4E00;&#x81F4;&#x7684;&#xFF0C;&#x53EA;&#x80FD;&#x4ECE;&#x8BED;&#x4E49;&#x7EA7;&#x522B;&#x6765;&#x533A;&#x5206;&#x3002;&#x5728;UML&#x7C7B;&#x56FE;&#x8BBE;&#x8BA1;&#x4E2D;&#xFF0C;&#x7EC4;&#x5408;&#x5173;&#x7CFB;&#x4EE5;&#x5B9E;&#x5FC3;&#x83F1;&#x5F62;&#x52A0;&#x5B9E;&#x7EBF;&#x7BAD;&#x5934;&#x8868;&#x793A;&#x3002;</p>
+<p><strong>&#x4E03;&#x3001;&#x603B;&#x7ED3;</strong><br>   &#x5BF9;&#x4E8E;&#x7EE7;&#x627F;&#x3001;&#x5B9E;&#x73B0;&#x8FD9;&#x4E24;&#x79CD;&#x5173;&#x7CFB;&#x6CA1;&#x591A;&#x5C11;&#x7591;&#x95EE;&#xFF0C;&#x5B83;&#x4EEC;&#x4F53;&#x73B0;&#x7684;&#x662F;&#x4E00;&#x79CD;&#x7C7B;&#x548C;&#x7C7B;&#x3001;&#x6216;&#x8005;&#x7C7B;&#x4E0E;&#x63A5;&#x53E3;&#x95F4;&#x7684;&#x7EB5;&#x5411;&#x5173;&#x7CFB;&#x3002;&#x5176;&#x4ED6;&#x7684;&#x56DB;&#x79CD;&#x5173;&#x7CFB;&#x4F53;&#x73B0;&#x7684;&#x662F;&#x7C7B;&#x548C;&#x7C7B;&#x3001;&#x6216;&#x8005;&#x7C7B;&#x4E0E;&#x63A5;&#x53E3;&#x95F4;&#x7684;&#x5F15;&#x7528;&#x3001;&#x6A2A;&#x5411;&#x5173;&#x7CFB;&#xFF0C;&#x662F;&#x6BD4;&#x8F83;&#x96BE;&#x533A;&#x5206;&#x7684;&#xFF0C;&#x6709;&#x5F88;&#x591A;&#x4E8B;&#x7269;&#x95F4;&#x7684;&#x5173;&#x7CFB;&#x8981;&#x60F3;&#x51C6;&#x786E;&#x5B9A;&#x4F4D;&#x662F;&#x5F88;&#x96BE;&#x7684;&#x3002;&#x524D;&#x9762;&#x4E5F;&#x63D0;&#x5230;&#xFF0C;&#x8FD9;&#x56DB;&#x79CD;&#x5173;&#x7CFB;&#x90FD;&#x662F;&#x8BED;&#x4E49;&#x7EA7;&#x522B;&#x7684;&#xFF0C;&#x6240;&#x4EE5;&#x4ECE;&#x4EE3;&#x7801;&#x5C42;&#x9762;&#x5E76;&#x4E0D;&#x80FD;&#x5B8C;&#x5168;&#x533A;&#x5206;&#x5404;&#x79CD;&#x5173;&#x7CFB;&#xFF0C;&#x4F46;&#x603B;&#x7684;&#x6765;&#x8BF4;&#xFF0C;&#x540E;&#x51E0;&#x79CD;&#x5173;&#x7CFB;&#x6240;&#x8868;&#x73B0;&#x7684;&#x5F3A;&#x5F31;&#x7A0B;&#x5EA6;&#x4F9D;&#x6B21;&#x4E3A;&#xFF1A;&#x7EC4;&#x5408;&gt;&#x805A;&#x5408;&gt;&#x5173;&#x8054;&gt;&#x4F9D;&#x8D56;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../java.html" class="navigation navigation-prev " aria-label="Previous page: Java">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="import-statiche-import-de-qu-bie.html" class="navigation navigation-next " aria-label="Next page: import static和import的区别">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"类与类之间的关系","level":"1.3.1","depth":2,"next":{"title":"import static和import的区别","level":"1.3.2","depth":2,"path":"java/import-statiche-import-de-qu-bie.md","ref":"java/import-statiche-import-de-qu-bie.md","articles":[]},"previous":{"title":"Java","level":"1.3","depth":1,"path":"java.md","ref":"java.md","articles":[{"title":"类与类之间的关系","level":"1.3.1","depth":2,"path":"java/lei-yu-lei-zhi-jian-de-guan-xi.md","ref":"java/lei-yu-lei-zhi-jian-de-guan-xi.md","articles":[]},{"title":"import static和import的区别","level":"1.3.2","depth":2,"path":"java/import-statiche-import-de-qu-bie.md","ref":"java/import-statiche-import-de-qu-bie.md","articles":[]},{"title":"修饰符","level":"1.3.3","depth":2,"path":"java/xiu-shi-fu.md","ref":"java/xiu-shi-fu.md","articles":[]},{"title":"枚举类","level":"1.3.4","depth":2,"path":"java/mei-ju-lei.md","ref":"java/mei-ju-lei.md","articles":[]},{"title":"注解","level":"1.3.5","depth":2,"path":"java/zhu-jie.md","ref":"java/zhu-jie.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"java/lei-yu-lei-zhi-jian-de-guan-xi.md","mtime":"2018-12-07T05:19:21.337Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-07T06:09:07.722Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
