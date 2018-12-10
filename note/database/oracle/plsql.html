@@ -1,0 +1,1081 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>pl/sql · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="connect-by.html" />
+    
+    
+    <link rel="prev" href="../oracle.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../spring.html">
+            
+                <a href="../../spring.html">
+            
+                    
+                    Spring
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../spring/jpa.html">
+            
+                <a href="../../spring/jpa.html">
+            
+                    
+                    JPA
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../spring/springsecurity.html">
+            
+                <a href="../../spring/springsecurity.html">
+            
+                    
+                    SpringSecurity
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../java.html">
+            
+                <a href="../../java.html">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../java/lei-yu-lei-zhi-jian-de-guan-xi.html">
+            
+                <a href="../../java/lei-yu-lei-zhi-jian-de-guan-xi.html">
+            
+                    
+                    类与类之间的关系
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../java/import-statiche-import-de-qu-bie.html">
+            
+                <a href="../../java/import-statiche-import-de-qu-bie.html">
+            
+                    
+                    import static和import的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../java/xiu-shi-fu.html">
+            
+                <a href="../../java/xiu-shi-fu.html">
+            
+                    
+                    修饰符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../../java/mei-ju-lei.html">
+            
+                <a href="../../java/mei-ju-lei.html">
+            
+                    
+                    枚举类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../../java/zhu-jie.html">
+            
+                <a href="../../java/zhu-jie.html">
+            
+                    
+                    注解
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../she-ji-mo-shi-yuan-ze.html">
+            
+                <a href="../../she-ji-mo-shi-yuan-ze.html">
+            
+                    
+                    设计模式六大原则
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../she-ji-mo-shi-yuan-ze/dan-yi-zhi-ze-yuan-ze.html">
+            
+                <a href="../../she-ji-mo-shi-yuan-ze/dan-yi-zhi-ze-yuan-ze.html">
+            
+                    
+                    单一职责原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../she-ji-mo-shi-yuan-ze/li-shi-ti-huan-yuan-ze.html">
+            
+                <a href="../../she-ji-mo-shi-yuan-ze/li-shi-ti-huan-yuan-ze.html">
+            
+                    
+                    里氏替换原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../she-ji-mo-shi-yuan-ze/yi-lai-dao-zhi-yuan-ze.html">
+            
+                <a href="../../she-ji-mo-shi-yuan-ze/yi-lai-dao-zhi-yuan-ze.html">
+            
+                    
+                    依赖倒置原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../../she-ji-mo-shi-yuan-ze/jie-kou-ge-li-yuan-ze.html">
+            
+                <a href="../../she-ji-mo-shi-yuan-ze/jie-kou-ge-li-yuan-ze.html">
+            
+                    
+                    接口隔离原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../../she-ji-mo-shi-yuan-ze/di-mi-te-fa-ze.html">
+            
+                <a href="../../she-ji-mo-shi-yuan-ze/di-mi-te-fa-ze.html">
+            
+                    
+                    迪米特法则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../../she-ji-mo-shi-yuan-ze/kai-bi-yuan-ze.html">
+            
+                <a href="../../she-ji-mo-shi-yuan-ze/kai-bi-yuan-ze.html">
+            
+                    
+                    开闭原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../23种设计模式.html">
+            
+                <a href="../../23种设计模式.html">
+            
+                    
+                    设计模式23种
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../she-ji-mo-shi-23-zhong/dan-li-mo-shi.html">
+            
+                <a href="../../she-ji-mo-shi-23-zhong/dan-li-mo-shi.html">
+            
+                    
+                    单例模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../she-ji-mo-shi-23-zhong/gong-chang-mo-shi.html">
+            
+                <a href="../../she-ji-mo-shi-23-zhong/gong-chang-mo-shi.html">
+            
+                    
+                    工厂模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../dai-ma-zhong-gou.html">
+            
+                <a href="../../dai-ma-zhong-gou.html">
+            
+                    
+                    代码重构
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../dai-ma-zhong-gou/dai-ma-huai-wei-dao.html">
+            
+                <a href="../../dai-ma-zhong-gou/dai-ma-huai-wei-dao.html">
+            
+                    
+                    代码坏味道
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../jeesite/jeesite.html">
+            
+                <a href="../../jeesite/jeesite.html">
+            
+                    
+                    Jeesite
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../jeesite/springmvcbiao-qian.html">
+            
+                <a href="../../jeesite/springmvcbiao-qian.html">
+            
+                    
+                    SpringMVC标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../jeesite/jspchang-yong-biao-qian.html">
+            
+                <a href="../../jeesite/jspchang-yong-biao-qian.html">
+            
+                    
+                    JSP常用标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../../jeesite/jquery-validate.html">
+            
+                <a href="../../jeesite/jquery-validate.html">
+            
+                    
+                    Jquery-validate
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../activitigong-zuo-liu.html">
+            
+                <a href="../../activitigong-zuo-liu.html">
+            
+                    
+                    Activiti工作流
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../../activitigong-zuo-liu/activiti-liu-cheng-ding-yi-biao.html">
+            
+                <a href="../../activitigong-zuo-liu/activiti-liu-cheng-ding-yi-biao.html">
+            
+                    
+                    流程定义表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../../activitigong-zuo-liu/activiti-yun-xing-shi-li-biao.html">
+            
+                <a href="../../activitigong-zuo-liu/activiti-yun-xing-shi-li-biao.html">
+            
+                    
+                    运行实例表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../../activitigong-zuo-liu/liu-cheng-li-shi-ji-lu.html">
+            
+                <a href="../../activitigong-zuo-liu/liu-cheng-li-shi-ji-lu.html">
+            
+                    
+                    流程历史记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../../activitigong-zuo-liu/yi-ban-shu-ju.html">
+            
+                <a href="../../activitigong-zuo-liu/yi-ban-shu-ju.html">
+            
+                    
+                    一般数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../../activitigong-zuo-liu/yong-hu-yong-hu-zu-biao.html">
+            
+                <a href="../../activitigong-zuo-liu/yong-hu-yong-hu-zu-biao.html">
+            
+                    
+                    用户用户组表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6" data-path="../../activitigong-zuo-liu/bpmn.html">
+            
+                <a href="../../activitigong-zuo-liu/bpmn.html">
+            
+                    
+                    BPMN
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.7" data-path="../../activitigong-zuo-liu/liu-cheng-she-ji.html">
+            
+                <a href="../../activitigong-zuo-liu/liu-cheng-she-ji.html">
+            
+                    
+                    流程设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../../golang.html">
+            
+                <a href="../../golang.html">
+            
+                    
+                    golang
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../../golang/vimpei-zhi-cheng-ide.html">
+            
+                <a href="../../golang/vimpei-zhi-cheng-ide.html">
+            
+                    
+                    vim配置成IDE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../../golang/jie-gou-ti-biao-qian.html">
+            
+                <a href="../../golang/jie-gou-ti-biao-qian.html">
+            
+                    
+                    结构体标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../../docker.html">
+            
+                <a href="../../docker.html">
+            
+                    
+                    Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../../database.html">
+            
+                <a href="../../database.html">
+            
+                    
+                    数据库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../oracle.html">
+            
+                <a href="../oracle.html">
+            
+                    
+                    Oracle
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.11.1.1" data-path="plsql.html">
+            
+                <a href="plsql.html">
+            
+                    
+                    pl/sql
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.1.2" data-path="connect-by.html">
+            
+                <a href="connect-by.html">
+            
+                    
+                    connect by
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.1.3" data-path="chang-yong.html">
+            
+                <a href="chang-yong.html">
+            
+                    
+                    常用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="../mysql.html">
+            
+                <a href="../mysql.html">
+            
+                    
+                    MySql
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.2.1" data-path="../mysql/ri-qi-han-shu.html">
+            
+                <a href="../mysql/ri-qi-han-shu.html">
+            
+                    
+                    日期函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2.2" data-path="../mysql/chang-yong.html">
+            
+                <a href="../mysql/chang-yong.html">
+            
+                    
+                    常用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.3" data-path="../postgresql.html">
+            
+                <a href="../postgresql.html">
+            
+                    
+                    PostgresQL
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.3.1" data-path="../postgresql/psql.html">
+            
+                <a href="../postgresql/psql.html">
+            
+                    
+                    psql
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../../tool/">
+            
+                <a href="../../tool/">
+            
+                    
+                    项目管理工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../../tool/maven/maven.html">
+            
+                <a href="../../tool/maven/maven.html">
+            
+                    
+                    Maven
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../../linux.html">
+            
+                <a href="../../linux.html">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="../../linux/centos.html">
+            
+                <a href="../../linux/centos.html">
+            
+                    
+                    Centos
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../../jquery.html">
+            
+                <a href="../../jquery.html">
+            
+                    
+                    Jquery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../../mybatis.html">
+            
+                <a href="../../mybatis.html">
+            
+                    
+                    Mybatis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../../cron.html">
+            
+                <a href="../../cron.html">
+            
+                    
+                    Cron
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="../../jwt.html">
+            
+                <a href="../../jwt.html">
+            
+                    
+                    JWT
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >pl/sql</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="plsql">Pl/Sql</h1>
+<pre><code>PL/SQL&#x5757;&#x7684;&#x7ED3;&#x6784;&#x5982;&#x4E0B;&#xFF1A;
+
+DECLARE 
+/* &#x58F0;&#x660E;&#x90E8;&#x5206;: &#x5728;&#x6B64;&#x58F0;&#x660E;PL/SQL&#x7528;&#x5230;&#x7684;&#x53D8;&#x91CF;,&#x7C7B;&#x578B;&#x53CA;&#x6E38;&#x6807;&#xFF0C;&#x4EE5;&#x53CA;&#x5C40;&#x90E8;&#x7684;&#x5B58;&#x50A8;&#x8FC7;&#x7A0B;&#x548C;&#x51FD;&#x6570; */
+BEGIN
+    /*  &#x6267;&#x884C;&#x90E8;&#x5206;:  &#x8FC7;&#x7A0B;&#x53CA;SQL &#x8BED;&#x53E5;  , &#x5373;&#x7A0B;&#x5E8F;&#x7684;&#x4E3B;&#x8981;&#x90E8;&#x5206;  */
+EXCEPTION
+   /* &#x6267;&#x884C;&#x5F02;&#x5E38;&#x90E8;&#x5206;: &#x9519;&#x8BEF;&#x5904;&#x7406;  */
+END;
+</code></pre><pre><code>DECLARE
+v_num NUMBER ; -- &#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;v_num
+BEGIN
+v_num := 30 ; -- &#x8BBE;&#x7F6E;v_num&#x7684;&#x5185;&#x5BB9;
+DBMS_OUTPUT.put_line(&apos;V_NUM&#x53D8;&#x91CF;&#x7684;&#x5185;&#x5BB9;&#x662F;&#xFF1A;&apos; || v_num) ;
+END ;
+/
+</code></pre><p><strong>function</strong></p>
+<pre><code>create or replace function fun_info(i_eno number,o_title out varchar2,salch in out number) return varchar2
+as
+name emp.ename%type;
+begin
+select ename into name from emp where empno=i_eno;
+update emp set sal=sal+salch where empno=i_eno returning job,sal into o_title,salch;
+return name;
+end;
+
+// &#x5220;&#x9664;function
+drop function fun_info;
+</code></pre><p><strong>procedure</strong></p>
+<pre><code>---&#x521B;&#x5EFA;procedure   
+&#x3000;&#x3000;create or replace procedure up_sel(cur_test out sys_refcursor)   
+&#x3000;&#x3000;is   
+&#x3000;&#x3000;begin   
+&#x3000;&#x3000;open cur_test for   
+&#x3000;&#x3000;select * from a;   
+&#x3000;&#x3000;end;
+
+&#x3000;&#x3000;--&#x5220;&#x9664;&#x5B58;&#x50A8;&#x8FC7;&#x7A0B;   
+&#x3000;&#x3000;drop procedure up_sel   
+&#x3000;&#x3000;--&#x63D0;&#x4EA4;   
+&#x3000;&#x3000;commit   
+&#x3000;&#x3000;----&#x5728;PL/sql&#x4E2D;&#x6267;&#x884C;procedure------   
+&#x3000;&#x3000;---//   file--&gt;&gt;new --&gt;&gt;test window   
+&#x3000;&#x3000;begin   
+&#x3000;&#x3000;-- Call the procedure   
+&#x3000;&#x3000;up_sel(cur_test =&gt; :cur_test);   
+&#x3000;&#x3000;end;   
+&#x3000;&#x3000;--//&#x5728;variable&#x4E2D;&#x586B;&#x5165;&#x5B9A;&#x4E49;&#x7684;&#x6E38;&#x6807;&#x540D;  cur_test   
+&#x3000;&#x3000;--//&#x5728;Type&#x4E2D;&#x586B;&#x5165;&#x6E38;&#x6807;&#x7C7B;&#x578B;  Cursor   
+&#x3000;&#x3000;--//&#x70B9;&#x51FB;Value &#x53F3;&#x8FB9;&#x7684; ...&#x56FE;&#x6807;&#x5373;&#x53EF;&#x663E;&#x793A;&#x51FA;&#x6240;&#x8981;&#x7684;&#x7ED3;&#x679C;
+</code></pre><p><strong>&#x8D4B;&#x503C;&#x7528; :=</strong></p>
+<p><code>various := 1;</code></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../oracle.html" class="navigation navigation-prev " aria-label="Previous page: Oracle">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="connect-by.html" class="navigation navigation-next " aria-label="Next page: connect by">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"pl/sql","level":"1.11.1.1","depth":3,"next":{"title":"connect by","level":"1.11.1.2","depth":3,"path":"database/oracle/connect-by.md","ref":"database/oracle/connect-by.md","articles":[]},"previous":{"title":"Oracle","level":"1.11.1","depth":2,"path":"database/oracle.md","ref":"database/oracle.md","articles":[{"title":"pl/sql","level":"1.11.1.1","depth":3,"path":"database/oracle/plsql.md","ref":"database/oracle/plsql.md","articles":[]},{"title":"connect by","level":"1.11.1.2","depth":3,"path":"database/oracle/connect-by.md","ref":"database/oracle/connect-by.md","articles":[]},{"title":"常用","level":"1.11.1.3","depth":3,"path":"database/oracle/chang-yong.md","ref":"database/oracle/chang-yong.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"database/oracle/plsql.md","mtime":"2018-12-07T09:55:12.119Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-10T08:01:23.052Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
