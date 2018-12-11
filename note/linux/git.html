@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>JPA · 我的笔记</title>
+        <title>Git · 我的笔记</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="springsecurity.html" />
+    <link rel="next" href="../jquery.html" />
     
     
-    <link rel="prev" href="../spring.html" />
+    <link rel="prev" href="centos.html" />
     
 
     </head>
@@ -120,9 +120,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.2.1" data-path="jpa.html">
+        <li class="chapter " data-level="1.2.1" data-path="../spring/jpa.html">
             
-                <a href="jpa.html">
+                <a href="../spring/jpa.html">
             
                     
                     JPA
@@ -133,9 +133,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2" data-path="springsecurity.html">
+        <li class="chapter " data-level="1.2.2" data-path="../spring/springsecurity.html">
             
-                <a href="springsecurity.html">
+                <a href="../spring/springsecurity.html">
             
                     
                     SpringSecurity
@@ -706,9 +706,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.11.1" data-path="../linux/centos.html">
+        <li class="chapter " data-level="1.11.1" data-path="centos.html">
             
-                <a href="../linux/centos.html">
+                <a href="centos.html">
             
                     
                     Centos
@@ -719,9 +719,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.11.2" data-path="../linux/git.html">
+        <li class="chapter active" data-level="1.11.2" data-path="git.html">
             
-                <a href="../linux/git.html">
+                <a href="git.html">
             
                     
                     Git
@@ -819,7 +819,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >JPA</a>
+        <a href=".." >Git</a>
     </h1>
 </div>
 
@@ -834,105 +834,60 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="jpa">JPA</h1>
-<p><strong>1.maven &amp; gradle&#x4F9D;&#x8D56;</strong></p>
-<pre><code>dependencies {
-    // jpa
-    compile(&quot;org.springframework.boot:spring-boot-starter-data-jpa&quot;)
-    // &#x6570;&#x636E;&#x5E93;h2
-    compile(&quot;com.h2database:h2&quot;)
-    testCompile(&quot;junit:junit&quot;)
-}
-</code></pre><p><strong>2.&#x5B9E;&#x4F53;&#x7C7B;</strong></p>
-<p>&#x6CE8;&#x89E3;<code>@Entity</code> JPA&#x5B9E;&#x4F53;. <code>@Table(name=&quot;sys_user&quot;)</code> &#x6CE8;&#x89E3;&#x8BBE;&#x7F6E;&#x8868;&#x540D;,&#x5982;&#x679C;&#x6CA1;&#x6709;&#x5219;&#x9ED8;&#x8BA4;&#x4E3A;&#x8868;&#x540D;. <code>@Id</code> &#x6807;&#x8BC6;&#x4E3A;&#x4E3B;&#x952E;</p>
-<p><code>@GeneratedValue(strategy = GenerationType.AUTO)</code> &#x81EA;&#x52A8;&#x8BBE;&#x7F6E;&#x4E3B;&#x952E;</p>
-<p><code>@Column(unique=true,name=&quot;&quot;)</code> &#x552F;&#x4E00;&#x6027;&#x7EA6;&#x675F;,&#x8BBE;&#x7F6E;&#x5217;&#x540D;</p>
-<pre><code class="lang-java"><span class="hljs-keyword">import</span> javax.persistence.Entity;
-<span class="hljs-keyword">import</span> javax.persistence.GeneratedValue;
-<span class="hljs-keyword">import</span> javax.persistence.GenerationType;
-<span class="hljs-keyword">import</span> javax.persistence.Id;
+                                <h1 id="git">Git</h1>
+<p>git&#x662F;&#x5206;&#x5E03;&#x5F0F;&#x7248;&#x672C;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#x3002;&#x4E0E;&#x4E4B;&#x76F8;&#x5BF9;&#x5E94;&#x7684;&#x662F;&#x96C6;&#x4E2D;&#x7248;&#x672C;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#x3002;&#x96C6;&#x4E2D;&#x7248;&#x672C;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#x6709;svn&#x3002;</p>
+<p>&#x4F7F;&#x7528;&#x5DE5;&#x5177;&#xFF1A;TortoiesGit&#xFF0C;svn&#x7684;&#x6709;TortoiesSvn&#x3002;</p>
+<p>&#x91CD;&#x8981;&#x7684;&#x547D;&#x4EE4;&#xFF1A;</p>
+<ul>
+<li><p>git init --bare &#xFF08;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x7A7A;&#x4ED3;&#x5E93;&#xFF09;</p>
+</li>
+<li><p>git clone</p>
+</li>
+<li><p>git remote</p>
+</li>
+<li><p>git fetch</p>
+</li>
+<li><p>git pull</p>
+</li>
+<li><p>git push</p>
+</li>
+</ul>
+<h2 id="git-clone">git clone</h2>
+<pre><code>$ git clone &lt;&#x7248;&#x672C;&#x5E93;&#x7684;&#x7F51;&#x5740;&gt; &lt;&#x672C;&#x5730;&#x76EE;&#x5F55;&#x540D;&gt;
+</code></pre><pre><code>$ git clone http[s]://example.com/path/to/repo.git/
+$ git clone ssh://example.com/path/to/repo.git/
+$ git clone git://example.com/path/to/repo.git/
+$ git clone /opt/git/project.git 
+$ git clone file:///opt/git/project.git
+$ git clone ftp[s]://example.com/path/to/repo.git/
+$ git clone rsync://example.com/path/to/repo.git/
+</code></pre><p>ssh&#x534F;&#x8BAE;&#x7684;&#x53E6;&#x4E00;&#x79CD;&#x5199;&#x6CD5;</p>
+<pre><code>$ git clone [user@]example.com:path/to/repo.git/
+</code></pre><h2 id="git-remote">git remote</h2>
+<p>&#x4E3A;&#x4E86;&#x4FBF;&#x4E8E;&#x7BA1;&#x7406;&#xFF0C;Git&#x8981;&#x6C42;&#x6BCF;&#x4E2A;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;&#x90FD;&#x5FC5;&#x987B;&#x6307;&#x5B9A;&#x4E00;&#x4E2A;&#x4E3B;&#x673A;&#x540D;&#x3002;<code>git remote</code>&#x547D;&#x4EE4;&#x5C31;&#x7528;&#x4E8E;&#x7BA1;&#x7406;&#x4E3B;&#x673A;&#x540D;&#x3002;</p>
+<p>&#x4E0D;&#x5E26;&#x9009;&#x9879;&#x7684;&#x65F6;&#x5019;&#xFF0C;<code>git remote</code>&#x547D;&#x4EE4;&#x5217;&#x51FA;&#x6240;&#x6709;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;&#x3002;</p>
+<pre><code>$ git remote
+origin
+</code></pre><p>&#x4F7F;&#x7528;<code>-v</code>&#x9009;&#x9879;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x770B;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;&#x7684;&#x7F51;&#x5740;&#x3002;</p>
+<pre><code>$ git remote -v
+origin  git@github.com:jquery/jquery.git (fetch)
+origin  git@github.com:jquery/jquery.git (push)
+</code></pre><p>&#x514B;&#x9686;&#x7248;&#x672C;&#x5E93;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6240;&#x4F7F;&#x7528;&#x7684;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;&#x81EA;&#x52A8;&#x88AB;Git&#x547D;&#x540D;&#x4E3A;<code>origin</code>&#x3002;&#x5982;&#x679C;&#x60F3;&#x7528;&#x5176;&#x4ED6;&#x7684;&#x4E3B;&#x673A;&#x540D;&#xFF0C;&#x9700;&#x8981;&#x7528;<code>git clone</code>&#x547D;&#x4EE4;&#x7684;<code>-o</code>&#x9009;&#x9879;&#x6307;&#x5B9A;&#x3002;</p>
+<pre><code>$ git clone -o jQuery https://github.com/jquery/jquery.git
+$ git remote
+jQuery
+</code></pre><h2 id="git-fetch">git fetch</h2>
+<p>git fetch &#x76F8;&#x5F53;&#x4E8E;&#x662F;&#x4ECE;&#x8FDC;&#x7A0B;&#x83B7;&#x53D6;&#x6700;&#x65B0;&#x5230;&#x672C;&#x5730;&#xFF0C;&#x4E0D;&#x4F1A;&#x81EA;&#x52A8;merge</p>
+<pre><code>git fetch orgin master //&#x5C06;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93;&#x7684;master&#x5206;&#x652F;&#x4E0B;&#x8F7D;&#x5230;&#x672C;&#x5730;&#x5F53;&#x524D;branch&#x4E2D;
+git log -p master  ..origin/master //&#x6BD4;&#x8F83;&#x672C;&#x5730;&#x7684;master&#x5206;&#x652F;&#x548C;origin/master&#x5206;&#x652F;&#x7684;&#x5DEE;&#x522B;
+git merge origin/master //&#x8FDB;&#x884C;&#x5408;&#x5E76;
 
-<span class="hljs-meta">@Entity</span>
-<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Customer</span> </span>{
-
-    <span class="hljs-meta">@Id</span>
-    <span class="hljs-meta">@GeneratedValue</span>(strategy=GenerationType.AUTO)
-    <span class="hljs-keyword">private</span> Long id;
-    <span class="hljs-keyword">private</span> String firstName;
-    <span class="hljs-keyword">private</span> String lastName;
-
-    <span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-title">Customer</span><span class="hljs-params">()</span> </span>{}
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Customer</span><span class="hljs-params">(String firstName, String lastName)</span> </span>{
-        <span class="hljs-keyword">this</span>.firstName = firstName;
-        <span class="hljs-keyword">this</span>.lastName = lastName;
-    }
-
-    <span class="hljs-meta">@Override</span>
-    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">toString</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">return</span> String.format(
-                <span class="hljs-string">&quot;Customer[id=%d, firstName=&apos;%s&apos;, lastName=&apos;%s&apos;]&quot;</span>,
-                id, firstName, lastName);
-    }
-
-}
-</code></pre>
-<p><strong>3.repository</strong></p>
-<p>&#x7EE7;&#x627F;CrudRepository&#x7C7B;.</p>
-<pre><code>import java.util.List;
-
-import org.springframework.data.repository.CrudRepository;
-
-public interface CustomerRepository extends CrudRepository&lt;Customer, Long&gt; {
-
-    List&lt;Customer&gt; findByLastName(String lastName);
-}
-</code></pre><p>&#x5B9E;&#x4F8B;:</p>
-<pre><code>@SpringBootApplication
-public class Application {
-
-    private static final Logger log = LoggerFactory.getLogger(Application.class);
-
-    public static void main(String[] args) {
-        SpringApplication.run(Application.class);
-    }
-
-    @Bean
-    public CommandLineRunner demo(CustomerRepository repository) {
-        return (args) -&gt; {
-            // save a couple of customers
-            repository.save(new Customer(&quot;Jack&quot;, &quot;Bauer&quot;));
-            repository.save(new Customer(&quot;Chloe&quot;, &quot;O&apos;Brian&quot;));
-            repository.save(new Customer(&quot;Kim&quot;, &quot;Bauer&quot;));
-            repository.save(new Customer(&quot;David&quot;, &quot;Palmer&quot;));
-            repository.save(new Customer(&quot;Michelle&quot;, &quot;Dessler&quot;));
-
-            // fetch all customers
-            log.info(&quot;Customers found with findAll():&quot;);
-            log.info(&quot;-------------------------------&quot;);
-            for (Customer customer : repository.findAll()) {
-                log.info(customer.toString());
-            }
-            log.info(&quot;&quot;);
-
-            // fetch an individual customer by ID
-            Customer customer = repository.findOne(1L);
-            log.info(&quot;Customer found with findOne(1L):&quot;);
-            log.info(&quot;--------------------------------&quot;);
-            log.info(customer.toString());
-            log.info(&quot;&quot;);
-
-            // fetch customers by last name
-            log.info(&quot;Customer found with findByLastName(&apos;Bauer&apos;):&quot;);
-            log.info(&quot;--------------------------------------------&quot;);
-            for (Customer bauer : repository.findByLastName(&quot;Bauer&quot;)) {
-                log.info(bauer.toString());
-            }
-            log.info(&quot;&quot;);
-        };
-    }
-
-}
+git fetch origin master:tmp //&#x4ECE;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93;master&#x5206;&#x652F;&#x83B7;&#x53D6;&#x6700;&#x65B0;&#xFF0C;&#x5728;&#x672C;&#x5730;&#x5EFA;&#x7ACB;tmp&#x5206;&#x652F;
+git diff tmp //&#x5C07;&#x7576;&#x524D;&#x5206;&#x652F;&#x548C;tmp&#x9032;&#x884C;&#x5C0D;&#x6BD4;
+git merge tmp //&#x5408;&#x5E76;tmp&#x5206;&#x652F;&#x5230;&#x5F53;&#x524D;&#x5206;&#x652F;
+</code></pre><h2 id="git-pull">git pull</h2>
+<p>&#x76F8;&#x5F53;&#x4E8E;&#x662F;&#x4ECE;&#x8FDC;&#x7A0B;&#x83B7;&#x53D6;&#x6700;&#x65B0;&#x7248;&#x672C;&#x5E76;merge&#x5230;&#x672C;&#x5730;</p>
+<pre><code>git pull origin master
 </code></pre>
                                 
                                 </section>
@@ -960,12 +915,12 @@ public class Application {
 
             
                 
-                <a href="../spring.html" class="navigation navigation-prev " aria-label="Previous page: Spring">
+                <a href="centos.html" class="navigation navigation-prev " aria-label="Previous page: Centos">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="springsecurity.html" class="navigation navigation-next " aria-label="Next page: SpringSecurity">
+                <a href="../jquery.html" class="navigation navigation-next " aria-label="Next page: Jquery">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -976,7 +931,7 @@ public class Application {
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"JPA","level":"1.2.1","depth":2,"next":{"title":"SpringSecurity","level":"1.2.2","depth":2,"path":"spring/springsecurity.md","ref":"spring/springsecurity.md","articles":[]},"previous":{"title":"Spring","level":"1.2","depth":1,"path":"spring.md","ref":"spring.md","articles":[{"title":"JPA","level":"1.2.1","depth":2,"path":"spring/jpa.md","ref":"spring/jpa.md","articles":[]},{"title":"SpringSecurity","level":"1.2.2","depth":2,"path":"spring/springsecurity.md","ref":"spring/springsecurity.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["expandable-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"expandable-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"我的笔记","gitbook":"*"},"file":{"path":"spring/jpa.md","mtime":"2018-12-10T10:04:33.622Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-11T01:04:07.423Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Git","level":"1.11.2","depth":2,"next":{"title":"Jquery","level":"1.12","depth":1,"path":"jquery.md","ref":"jquery.md","articles":[]},"previous":{"title":"Centos","level":"1.11.1","depth":2,"path":"linux/centos.md","ref":"linux/centos.md","articles":[]},"dir":"ltr"},"config":{"plugins":["expandable-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"expandable-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"我的笔记","gitbook":"*"},"file":{"path":"linux/git.md","mtime":"2018-12-11T00:59:56.778Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-11T01:04:07.423Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
