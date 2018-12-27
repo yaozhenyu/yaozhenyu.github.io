@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Angular · 笔记</title>
+        <title>Angular 1.x · 笔记</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="angular1.html" />
+    <link rel="next" href="../react/" />
     
     
-    <link rel="prev" href="../javascript/object.html" />
+    <link rel="prev" href="./" />
     
 
     </head>
@@ -138,7 +138,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3" data-path="./">
+        <li class="chapter " data-level="1.3" data-path="./">
             
                 <a href="./">
             
@@ -152,7 +152,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.1" data-path="angular1.html">
+        <li class="chapter active" data-level="1.3.1" data-path="angular1.html">
             
                 <a href="angular1.html">
             
@@ -213,7 +213,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Angular</a>
+        <a href=".." >Angular 1.x</a>
     </h1>
 </div>
 
@@ -228,39 +228,39 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="angular">Angular</h1>
-<h2 id="angular&#x547D;&#x4EE4;">angular&#x547D;&#x4EE4;</h2>
-<h3 id="&#x5B89;&#x88C5;angular-cli">&#x5B89;&#x88C5;angular-cli</h3>
-<pre><code class="lang-bash">npm install -g @angular/cli
-</code></pre>
-<p><strong>new&#x547D;&#x4EE4;</strong></p>
-<pre><code class="lang-bash"><span class="hljs-comment"># &#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x53EB;project-name&#x7684;&#x9879;&#x76EE;</span>
-ng new project-name
-</code></pre>
-<p><strong>serve&#x547D;&#x4EE4;</strong></p>
-<p>ng serve &#x547D;&#x4EE4;&#x4F1A;&#x81EA;&#x52A8;&#x5F00;&#x53D1;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x5E76;&#x76D1;&#x89C6;&#x4F60;&#x7684;&#x6587;&#x4EF6;&#x53D8;&#x5316;&#xFF0C;&#x5F53;&#x4F60;&#x4FEE;&#x6539;&#x8FD9;&#x4E9B;&#x6587;&#x4EF6;&#x65F6;&#xFF0C;&#x5B83;&#x5C31;&#x4F1A;&#x91CD;&#x65B0;&#x6784;&#x5EFA;&#x5E94;&#x7528;&#x3002;</p>
-<pre><code class="lang-bash">ng serve --open
-<span class="hljs-comment">## --open&#x53C2;&#x6570;&#x8868;&#x793A;&#x6253;&#x5F00;&#x6D4F;&#x89C8;&#x5668;</span>
-</code></pre>
-<p><strong>generate&#x547D;&#x4EE4;</strong></p>
-<pre><code class="lang-bash"><span class="hljs-comment"># &#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x540D;&#x53EB;app-routing&#x7684;&#x6A21;&#x5757;</span>
-<span class="hljs-comment"># --flat &#x628A;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#x653E;&#x8FDB;&#x4E86; src/app &#x4E2D;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x5355;&#x72EC;&#x7684;&#x76EE;&#x5F55;&#x4E2D;&#x3002;</span>
-<span class="hljs-comment"># --module=app &#x544A;&#x8BC9; CLI &#x628A;&#x5B83;&#x6CE8;&#x518C;&#x5230; AppModule &#x7684; imports &#x6570;&#x7EC4;&#x4E2D;&#x3002;</span>
-ng generate module app-routing --flat --module=app
+                                <h1 id="angular-1x">Angular 1.x</h1>
+<h2 id="&#x5168;&#x5C40;&#x53D8;&#x91CF;">&#x5168;&#x5C40;&#x53D8;&#x91CF;</h2>
+<p>1&#xFF0C;&#x901A;&#x8FC7;var &#x76F4;&#x63A5;&#x5B9A;&#x4E49;global variable&#xFF0C;&#x8FD9;&#x8DDF;&#x7EAF;js&#x662F;&#x4E00;&#x6837;&#x7684;&#x3002;</p>
+<p>2&#xFF0C;&#x7528;angularjs value&#x6765;&#x8BBE;&#x7F6E;&#x5168;&#x5C40;&#x53D8;&#x91CF; &#x3002;</p>
+<p>3&#xFF0C;&#x7528;angularjs constant&#x6765;&#x8BBE;&#x7F6E;&#x5168;&#x5C40;&#x53D8;&#x91CF; &#x3002;</p>
+<p>4&#xFF0C;&#x7528;angularjs rootscope&#x6765;&#x8BBE;&#x7F6E;&#x5168;&#x5C40;&#x53D8;&#x91CF; &#x3002;</p>
+<p>5&#x3001;&#x5B9A;&#x4E49;&#x670D;&#x52A1;&#x3002;</p>
+<p>6&#x3001;$rootScope&#x3002;</p>
+<p>7&#x3001;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x670D;&#x52A1; &#x6765;&#x4F20; &#x503C;:</p>
+<pre><code class="lang-JavaScript"><span class="hljs-keyword">var</span> test2 = <span class="hljs-string">&apos;tank&apos;</span>;         <span class="hljs-comment">//&#x65B9;&#x6CD5;1&#xFF0C;&#x5B9A;&#x4E49;&#x5168;&#x5C40;&#x53D8;&#x91CF;  </span>
 
-<span class="hljs-comment"># &#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x53EB;heroes&#x7684;&#x7EC4;&#x4EF6;</span>
-ng generate component heroes
+<span class="hljs-keyword">var</span> app = angular.module(<span class="hljs-string">&apos;app&apos;</span>, [  
 
-<span class="hljs-comment"># &#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x53EB;hero&#x7684;&#x670D;&#x52A1;</span>
-ng generate service hero
+  <span class="hljs-string">&apos;ngRoute&apos;</span>,  
+
+  <span class="hljs-string">&apos;phonecatControllers&apos;</span>,  
+
+  <span class="hljs-string">&apos;tanktest&apos;</span>  
+
+]);  
+
+app .value(<span class="hljs-string">&apos;test&apos;</span>,{<span class="hljs-string">&quot;test&quot;</span>:<span class="hljs-string">&quot;test222&quot;</span>,<span class="hljs-string">&quot;test1&quot;</span>:<span class="hljs-string">&quot;test111&quot;</span>});  <span class="hljs-comment">//&#x65B9;&#x6CD5;2&#x5B9A;&#x4E49;&#x5168;&#x5C40;&#x53D8;&#x91CF;  </span>
+app .constant(<span class="hljs-string">&apos;constanttest&apos;</span>, <span class="hljs-string">&apos;this is constanttest&apos;</span>);    <span class="hljs-comment">//&#x65B9;&#x6CD5;3&#x5B9A;&#x4E49;&#x5168;&#x5C40;&#x53D8;&#x91CF;</span>
 </code></pre>
-<h2 id="&#x91CD;&#x8981;&#x6982;&#x5FF5;">&#x91CD;&#x8981;&#x6982;&#x5FF5;</h2>
-<ul>
-<li>&#x6A21;&#x5757;&#xFF1A;Module</li>
-<li>&#x7EC4;&#x4EF6;&#xFF1A;Component</li>
-<li>&#x670D;&#x52A1;&#xFF1A;Service</li>
-<li>&#x8DEF;&#x7531;&#xFF1A;Routing</li>
-</ul>
+<h2 id="&#x521B;&#x5EFA;&#x4E00;&#x4E2A;module">&#x521B;&#x5EFA;&#x4E00;&#x4E2A;module</h2>
+<pre><code class="lang-JavaScript"><span class="hljs-comment">// &#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;:&#x6A21;&#x5757;&#x540D;&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#xFF1A;&#x5F15;&#x5165;&#x5176;&#x4ED6;&#x6A21;&#x5757;</span>
+<span class="hljs-keyword">var</span> app = angular.module(<span class="hljs-string">&quot;app&quot;</span>,[module1,module2]);
+</code></pre>
+<h2 id="&#x521B;&#x5EFA;&#x4E00;&#x4E2A;controller">&#x521B;&#x5EFA;&#x4E00;&#x4E2A;controller</h2>
+<pre><code class="lang-JavaScript">app.controller(<span class="hljs-string">&quot;controller_name&quot;</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">$scope</span>)</span>{
+    $scope.var1 = {};
+});
+</code></pre>
 
                                 
                                 </section>
@@ -288,12 +288,12 @@ ng generate service hero
 
             
                 
-                <a href="../javascript/object.html" class="navigation navigation-prev " aria-label="Previous page: Object">
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Angular">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="angular1.html" class="navigation navigation-next " aria-label="Next page: Angular 1.x">
+                <a href="../react/" class="navigation navigation-next " aria-label="Next page: React">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -304,7 +304,7 @@ ng generate service hero
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Angular","level":"1.3","depth":1,"next":{"title":"Angular 1.x","level":"1.3.1","depth":2,"path":"angular/angular1.md","ref":"angular/angular1.md","articles":[]},"previous":{"title":"Object","level":"1.2.1","depth":2,"path":"javascript/object.md","ref":"javascript/object.md","articles":[]},"dir":"ltr"},"config":{"plugins":["expandable-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"expandable-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"笔记","gitbook":"*"},"file":{"path":"angular/index.md","mtime":"2018-12-15T05:19:24.548Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-27T04:32:54.320Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Angular 1.x","level":"1.3.1","depth":2,"next":{"title":"React","level":"1.4","depth":1,"path":"react/index.md","ref":"react/index.md","articles":[]},"previous":{"title":"Angular","level":"1.3","depth":1,"path":"angular/index.md","ref":"angular/index.md","articles":[{"title":"Angular 1.x","level":"1.3.1","depth":2,"path":"angular/angular1.md","ref":"angular/angular1.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["expandable-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"expandable-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"笔记","gitbook":"*"},"file":{"path":"angular/angular1.md","mtime":"2018-12-20T00:58:21.052Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-27T04:32:54.320Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
